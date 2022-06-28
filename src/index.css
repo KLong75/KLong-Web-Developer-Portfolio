@@ -13,23 +13,101 @@ code {
     monospace;
 }
 */
+
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding:  20px;
+}
+
+
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
 .nav-list {
-  margin-right: 40px;
-  margin-left: 40px;
   padding: 20px;
+  list-style: none;
+  font-size: large;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
-.header {
-  padding: 20px;
-  margin: 20px;
-  
+header {
+  padding-top: 20px;
+  width:100%;
+  text-align: center;
 }
 
 .footer-icon {
   margin: 20px;
+}
+
+footer {
+  margin-left: 25%;
+  width:50%;
+  text-align: center;
+}
+.navActive {
+  color: gold;
+  
+}
+
+nav  li {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border: 2px solid #7e7c7c;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var();
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 2px solid #7e7c7c;
+	padding: 5px;
+}
+
+a {
+  display: contents;
+  color: black;
 }

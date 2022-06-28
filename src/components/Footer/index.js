@@ -4,9 +4,13 @@ import linkedInLogo from '../../assets/linkedin.png';
 
 const Footer = () => {
   return (
-    <footer>
-      <img src={gitHubLogo} alt='GitHub icon' class='footer-icon'></img>
-      <img src={linkedInLogo} alt='LinkedIn icon' class='footer-icon'></img>
+    <footer className=''>
+      <a href='https://github.com/KLong75' target='_blank' rel='noreferrer' className=''>
+        <img src={gitHubLogo} alt='GitHub icon' className='footer-icon'></img>
+      </a>
+      <a href='https://www.linkedin.com/in/klong75' target='_blank' rel='noreferrer' className=''>
+        <img src={linkedInLogo} alt='LinkedIn icon' className='footer-icon'></img>
+      </a>
 
     </footer>
   );
