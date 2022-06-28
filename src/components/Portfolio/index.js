@@ -4,7 +4,7 @@ import Project from '../Project';
 const Portfolio = () => {
   return (
     <section>
-      <h1>&lt; Portfolio /&gt;</h1>
+      <h2>&lt; Portfolio /&gt;</h2>
       <Project></Project>
     </section>
   );
