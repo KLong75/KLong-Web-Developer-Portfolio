@@ -29,9 +29,9 @@ main {
 .nav-list {
   padding: 20px;
   list-style: none;
-  font-size: large;
-  margin-left: 8%;
-  margin-right: 8%;
+  font-size: 1.25rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
   
 }
 
