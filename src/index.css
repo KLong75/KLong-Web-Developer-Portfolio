@@ -1,22 +1,8 @@
-/*
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-*/
 
 main {
 	margin: 0 auto;
 	max-width: 90%;
+  
 }
 
 
@@ -38,19 +24,24 @@ main {
 header {
   width:100%;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 0px;
   
 }
 
 .footer-icon {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+
 }
 
 footer {
   margin-left: 25%;
   width:50%;
   text-align: center;
+  
 }
+
 .navActive {
   color: gold;
   
@@ -115,6 +106,11 @@ textarea {
 a {
   display: contents;
   color: black;
+}
+
+.section-title {
+  
+  text-align: center;
 }
 
 

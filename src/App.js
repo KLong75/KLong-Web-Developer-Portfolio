@@ -9,12 +9,11 @@ import Footer from './components/Footer';
 
 
 
-
-function App() {
+const App = () => {
 
   const [currentPage, setCurrentPage] = useState('About');
   
-  const render = () => {
+  const renderView = () => {
     if (currentPage === 'About') {
       return <About />
     } else if (currentPage === 'Portfolio') {
@@ -26,11 +25,9 @@ function App() {
 
   return (
     <div className=''>
-     
       <Header setCurrentPage={setCurrentPage}/>
-      
       <main className=''>
-       { render() }
+       { renderView() }
       </main>  
       <Footer></Footer>
     </div>
