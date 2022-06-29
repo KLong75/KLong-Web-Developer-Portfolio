@@ -34,7 +34,9 @@ function Contact() {
 
   return (
     <section>
-      <h1 data-testid='contact'>&lt; Contact me /&gt;</h1>
+      <h2 data-testid='contact'>&lt; Contact me @ /&gt;</h2>
+      <p>&lt; Email: kevinjlong75@gmail.com | Phone: 512-975-0082 /&gt;</p>
+      <p>&lt; Or use the form to send me a message. /&gt;</p>
       <form id='contact-form' onSubmit={handleSubmit}>
         <div>
           <label htmlFor='name'>Name:</label>

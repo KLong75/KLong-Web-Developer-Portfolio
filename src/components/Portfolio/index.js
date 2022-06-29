@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section>
       <h2>&lt; Portfolio /&gt;</h2>
-      <Project></Project>
+      <Project />
     </section>
   );
 };

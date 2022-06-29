@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Project = () => {
+const Project = (props) => {
   return (
     <section>
       <div className ="card shadow-lg p-3 mb-5 bg-success rounded px-md-2 mt-y mx-3">

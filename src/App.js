@@ -12,24 +12,25 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const [currentPage, setCurrentPage] = useState('About');
   
+  const render = () => {
+    if (currentPage === 'About') {
+      return <About />
+    } else if (currentPage === 'Portfolio') {
+      return <Portfolio />
+    } else if (currentPage === 'Contact') {
+      return <Contact />
+    }
+  }
 
   return (
     <div className=''>
-      <Header
-        contactSelected = {contactSelected}
-        setContactSelected = {setContactSelected}
-      ></Header>
+     
+      <Header setCurrentPage={setCurrentPage}/>
+      
       <main className=''>
-        {!contactSelected ? (
-          <>
-           <About></About>
-           <Portfolio></Portfolio>
-          </>
-        ) : (
-           <Contact></Contact>
-        )}
+       { render() }
       </main>  
       <Footer></Footer>
     </div>
