@@ -120,12 +120,20 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
-  
 }
 
 .card-title {
   margin: 4px;
   text-align: center;
+}
+
+.git-icon {
+  margin-left:4%;
+  
+}
+
+.git-repo-label {
+  margin-left: 2%;
 }
 
 

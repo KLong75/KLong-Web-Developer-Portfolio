@@ -55,47 +55,47 @@ const Project = () => {
 
 
   return (
-
-     <section className='container shadow-lg' >
+    <section className='container shadow-lg' >
       <div className='row portfolio-row'>
        {projects.map((project) => (
         <>
-          
           <div className='col-4'>
-          <div className='card shadow-lg'>
-          <h3 className='card-title'>{project.title}</h3>
-          <div className='card-body'>
-          <a 
-            href={project.appHref} 
-            target='_blank' 
-            rel='noreferrer' 
-            className=''>    <img
-            className='img-fluid rounded card-img shadow'
-            src={require(`../../assets/${project.src}`)}
-            alt={project.alt} 
-          /></a>
-          <p>{project.description}</p>
-          {/* <a 
-            href={project.appHref} 
-            target='_blank' 
-            rel='noreferrer' 
-            className=''>
-              <h4 className=''>Link to Deployed Application</h4>
-          </a> */}
-          <a 
-            href={project.gitHref} 
-            target='_blank' 
-            rel='noreferrer' 
-            className=''>
-              <h4 className=''>Link to GitHub Repository</h4>
-          </a>
+            <div className='card shadow-lg'>
+              <h3 className='card-title'>{project.title}</h3>
+              <div className='card-body'>
+                <a 
+                  href={project.appHref} 
+                  target='_blank' 
+                  rel='noreferrer' 
+                  className=''>    
+                    <img
+                      className='img-fluid rounded card-img shadow'
+                      src={require(`../../assets/${project.src}`)}
+                      alt={project.alt} 
+                    />
+                </a>
+                <p>{project.description}</p>
+                <a 
+                  href={project.gitHref} 
+                  target='_blank' 
+                  rel='noreferrer' 
+                  className='git-icon'>
+                    <span 
+                      className='git-repo-label'>&lt; Check out the code on GitHub /&gt;
+                    </span>
+                    <img
+                      className='rounded shadow git-icon'
+                      src={require(`../../assets/GitHub-Mark-32px.png`)}
+                      alt='GitHub icon' 
+                    /> 
+                </a>
+              </div>
+            </div>
           </div>
-          </div>
-          </div>
-          </>
-        ))}
-        </div>
-     </section>
+        </>
+       ))}
+      </div>
+    </section>
   );
 };
 
