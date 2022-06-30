@@ -1,10 +1,10 @@
 import React from 'react';
 import aboutImage from '../../assets/about-image.png';
 
-function About() {
+const About = () => {
   return (
     <section>
-      <h2 className='section-title'>&lt; About /&gt;</h2>
+      <h2 className='section-title'>&lt; About Me /&gt;</h2>
       <img src={aboutImage} alt='Kevin and dog' className=''/>
       <p className=''>
         Full Stack Web Developer currently enrolled in the full stack web development program at the University 

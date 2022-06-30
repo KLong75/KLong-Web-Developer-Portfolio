@@ -7,8 +7,6 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-
-
 const App = () => {
 
   const [currentPage, setCurrentPage] = useState('About');
@@ -24,7 +22,7 @@ const App = () => {
   }
 
   return (
-    <div className=''>
+    <div>
       <Header setCurrentPage={setCurrentPage}/>
       <main className=''>
        { renderView() }

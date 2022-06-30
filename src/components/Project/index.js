@@ -1,67 +1,100 @@
 import React, {useState } from "react";
 
-const Project = (props) => {
+const Project = () => {
   const [projects] = useState([
     {
-      title: 'Who Do',
+      title: 'Who Do?',
       src: 'Who_Do_login.png',
       alt: 'screeenshot of app',
-      description: '"Who Do?" is a social media type application designed for residents of Austin, TX to discover and create events for themselves and others to attend throughout the Austin area. Users can sign up to make an account and log into the site where they can create events, browse events, and RSVP to events. "Who Do?" is a full stack application developed with HTML, CSS (with Bootstrap), JavaScript, Node.js, Bcrypt, Connect-Session-Sequelize, Dotenv, Express.js, Handlebars.js, Express-Session, MySQL2, Sequelize, and Typescript. This was a group project for which I contributed primarily to the back end with additional contributions to the front end functionality, views, and styles.',
+      description: '',
       appHref: 'https://who-do-austin.herokuapp.com/login',
       gitHref: 'https://github.com/truppeiner/who-do'
     },
+    {
+      title: 'Movies R Us',
+      src: 'avengersportfolio.png',
+      alt: 'screeenshot of app',
+      description: '',
+      appHref: 'https://klong75.github.io/Movies-R-Us-KJ/',
+      gitHref: 'https://github.com/KLong75/Movies-R-Us-KJ'
+    },
+    {
+      title: 'Deep Thoughts',
+      src: 'deep-thoughts-signup.png',
+      alt: 'screeenshot of app',
+      description: '',
+      appHref: 'https://kj-deep-thoughts.herokuapp.com/',
+      gitHref: 'https://github.com/KLong75/deep-thoughts'
+    },
+    {
+      title: 'Budget Tracker',
+      src: 'budget-tracker.png',
+      alt: 'screeenshot of app',
+      description: '',
+      appHref: 'https://kj-budget-tracker-pwa.herokuapp.com/',
+      gitHref: 'https://github.com/KLong75/budget-tracker-pwa'
+    },
+    {
+      title: 'Work Day Scheduler',
+      src: 'work-day-scheduler.png',
+      alt: 'screeenshot of app',
+      description: '',
+      appHref: 'https://klong75.github.io/daily-calendar/',
+      gitHref: 'https://github.com/KLong75/daily-calendar'
+    },
+    {
+      title: 'Note Taker',
+      src: 'note-taker2.png',
+      alt: 'screeenshot of app',
+      description: '',
+      appHref: 'https://note-taker-gnolvek.herokuapp.com/',
+      gitHref: 'https://github.com/KLong75/note-taker'
+    },
+
   ])
 
 
   return (
 
-     <section>
-       {/* <div className ="card shadow-lg p-3 mb-5 bg-success rounded px-md-2 mt-y mx-3">
-         <div className="card-body text-success shadow-lg p-3 mb-5 bg-dark rounded">
-           <h3 className="card-title text-center ">Who Do?</h3>
-          <img src={require(`../../assets/Who_Do_login.png`)} className="" alt="screeenshot of app"/>
-          <h5 className="card-title">Description:</h5>
-          <p>"Who Do?" is a social media type application designed for residents of Austin, TX to discover and create events for themselves and others to attend throughout the Austin area. Users can sign up to make an account and log into the site where they can create events, browse events, and RSVP to events. "Who Do?" is a full stack application developed with HTML, CSS (with Bootstrap), JavaScript, Node.js, Bcrypt, Connect-Session-Sequelize, Dotenv, Express.js, Handlebars.js, Express-Session, MySQL2, Sequelize, and Typescript. This was a group project for which I contributed primarily to the back end with additional contributions to the front end functionality, views, and styles.</p>
-          <a href="https://github.com/truppeiner/who-do" target="_blank" rel="noreferrer" className="text-success">  <h5 className="card-title">Link to GitHub Repository</h5></a>
-          <a href="https://who-do-austin.herokuapp.com/login" target="_blank" rel="noreferrer" className="text-success">  <h5 className="card-title">Link to Deployed Application</h5></a>
-         </div>
-      </div> */}
-
-       <div className='flex-row'>
-        {projects.map((project) => (
-          <>
-          <h3>{project.title}</h3>
-          <img
-            src={require(`../../assets/${project.src}`)}
-            alt={project.alt} 
-          />
-          <p>{project.description}</p>
+     <section className='container shadow-lg' >
+      <div className='row portfolio-row'>
+       {projects.map((project) => (
+        <>
+          
+          <div className='col-4'>
+          <div className='card shadow-lg'>
+          <h3 className='card-title'>{project.title}</h3>
+          <div className='card-body'>
           <a 
             href={project.appHref} 
             target='_blank' 
             rel='noreferrer' 
-            className='text-success'>
-              <h4 className='card-title'>Link to Deployed Application</h4>
-          </a>
+            className=''>    <img
+            className='img-fluid rounded card-img shadow'
+            src={require(`../../assets/${project.src}`)}
+            alt={project.alt} 
+          /></a>
+          <p>{project.description}</p>
+          {/* <a 
+            href={project.appHref} 
+            target='_blank' 
+            rel='noreferrer' 
+            className=''>
+              <h4 className=''>Link to Deployed Application</h4>
+          </a> */}
           <a 
             href={project.gitHref} 
             target='_blank' 
             rel='noreferrer' 
-            className='text-success'>
-              <h4 className='card-title'>Link to GitHub Repository</h4>
+            className=''>
+              <h4 className=''>Link to GitHub Repository</h4>
           </a>
-
+          </div>
+          </div>
+          </div>
           </>
-
         ))}
-
-
-       </div>
-       
-
-
-
-
+        </div>
      </section>
   );
 };

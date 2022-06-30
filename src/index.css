@@ -2,9 +2,12 @@
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  
 }
 
+html,
+body {
+  min-height: 100%;
+}
 
 
 .flex-row {
@@ -15,7 +18,7 @@ main {
 .nav-list {
   padding: 20px;
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 1.19rem;
   margin-left: 7.5%;
   margin-right: 7.5%;
   
@@ -24,7 +27,7 @@ main {
 header {
   width:100%;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 10px;
   
 }
 
@@ -32,6 +35,7 @@ header {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
+  margin-bottom: 8px;
 
 }
 
@@ -55,10 +59,7 @@ nav  li {
   box-sizing: border-box;
 }
 
-html,
-body {
-  min-height: 100%;
-}
+
 
 h1 {
   font-size: 2.25rem;
@@ -109,7 +110,21 @@ a {
 }
 
 .section-title {
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  margin-right: 60px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
   
+}
+
+.card-title {
+  margin: 4px;
   text-align: center;
 }
 
