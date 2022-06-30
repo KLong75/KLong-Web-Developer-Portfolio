@@ -12,7 +12,7 @@ const Project = () => {
     },
     {
       title: 'Movies R Us',
-      src: 'avengersportfolio.png',
+      src: 'movies_r_us.gif',
       alt: 'screeenshot of app',
       description: '',
       appHref: 'https://klong75.github.io/Movies-R-Us-KJ/',
@@ -50,9 +50,7 @@ const Project = () => {
       appHref: 'https://note-taker-gnolvek.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/note-taker'
     },
-
   ])
-
 
   return (
     <section className='container shadow-lg' >

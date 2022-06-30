@@ -22,12 +22,12 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className=''>
       <Header setCurrentPage={setCurrentPage}/>
       <main className=''>
        { renderView() }
       </main>  
-      <Footer></Footer>
+      <Footer className=''></Footer>
     </div>
   );
 }

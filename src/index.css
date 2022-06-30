@@ -1,12 +1,11 @@
+html,
+body {
+  height: 100%;
+}
 
 main {
 	margin: 0 auto;
 	max-width: 90%;
-}
-
-html,
-body {
-  min-height: 100%;
 }
 
 
