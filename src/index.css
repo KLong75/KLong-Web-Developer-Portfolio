@@ -1,3 +1,4 @@
+/* whole app */
 html,
 body {
   height: 100%;
@@ -8,59 +9,14 @@ main {
 	max-width: 90%;
 }
 
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.nav-list {
-  padding: 20px;
-  list-style: none;
-  font-size: 1.19rem;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  
-}
-
-header {
-  width:100%;
-  text-align: center;
-  padding-top: 10px;
-  
-}
-
-.footer-icon {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 8px;
-
-}
-
-footer {
-  margin-left: 25%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width:50%;
-  text-align: center;
-  
-}
-
-.navActive {
-  color: gold;
-  
-}
-
-nav  li {
-  cursor: pointer;
-}
-
 * {
   box-sizing: border-box;
 }
-
-
 
 h1 {
   font-size: 2.25rem;
@@ -83,6 +39,80 @@ p {
   margin-top: 0;
 }
 
+a {
+  display: contents;
+  color: black;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 100%;
+  margin-right: 60px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+} 
+
+.card-title {
+  margin: 4px;
+  text-align: center;
+}
+
+/* header component */
+header {
+  width:100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+/* nav component */
+.nav-list {
+  padding: 20px;
+  list-style: none;
+  font-size: 1.19rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.navActive {
+  color: gold;
+  
+}
+
+nav li {
+  cursor: pointer;
+}
+
+/* about component */
+
+
+/* portfolio component */
+
+
+/* project component */
+.git-icon {
+  margin-left:4%;
+}
+
+.git-repo-label {
+  margin-left: 2%;
+}
+
+/* resume component */
+.pdf {
+   margin-left: 21%; 
+  /* margin-top: 0%; */
+  /* width:50%; */
+   /* text-align: center;  */
+}
+
+/* contact component */
 form {
   width: 40%;
 }
@@ -112,39 +142,39 @@ textarea {
   display: flexbox;
 }
 
-a {
-  display: contents;
-  color: black;
-}
-
-.section-title {
-  text-align: center;
+/* footer component */
+footer {
+  margin-left: 25%;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-
-
-.card {
-  width: 100%;
-  margin-right: 60px;
-  margin-left: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0px;
-}
-
-.card-title {
-  margin: 4px;
+  width:50%;
   text-align: center;
 }
 
-.git-icon {
-  margin-left:4%;
-  
+.footer-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
-.git-repo-label {
-  margin-left: 2%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

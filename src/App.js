@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-//import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-//import Project from './components/Project';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
@@ -11,6 +9,11 @@ import Footer from './components/Footer';
 const App = () => {
 
   const [currentPage, setCurrentPage] = useState('About');
+
+  const [aboutSelected, setAboutSelected] = useState(true);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
   
   const renderView = () => {
     if (currentPage === 'About') {

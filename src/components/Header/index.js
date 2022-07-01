@@ -7,7 +7,9 @@ const Header = (props) => {
     
     <header className='header'>
       <h1 className=''>&lt;  Kevin Long  |  Full Stack Web Developer /&gt;</h1>
-      <Nav setCurrentPage={props.setCurrentPage} />
+      <Nav 
+        setCurrentPage={props.setCurrentPage} 
+      />
     </header>
     
   );
