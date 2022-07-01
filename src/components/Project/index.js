@@ -60,7 +60,7 @@ const Project = () => {
           <div className='col-4'>
             <div className='card shadow-lg'>
               <h3 className='card-title'>{project.title}</h3>
-              <div className='card-body'>
+              <div className='card-body shadow'>
                 <a 
                   href={project.appHref} 
                   target='_blank' 

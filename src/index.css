@@ -72,6 +72,10 @@ h3 {
   font-size: 1.75rem;
 }
 
+h4 {
+  font-size: 1.25rem;
+}
+
 p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -89,6 +93,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  display: flex;
 }
 
 input:focus {
@@ -97,10 +102,12 @@ input:focus {
 }
 
 textarea {
-	width: 600px;
+	width: 1030px;
 	height: 120px;
 	border: 2px solid #7e7c7c;
+  border-radius: 3px;
 	padding: 5px;
+  display: flexbox;
 }
 
 a {
@@ -110,7 +117,10 @@ a {
 
 .section-title {
   text-align: center;
+  margin-bottom: 10px;
 }
+
+
 
 .card {
   width: 100%;
@@ -135,4 +145,6 @@ a {
   margin-left: 2%;
 }
 
-
+.contact-form {
+  
+}
