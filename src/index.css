@@ -40,6 +40,8 @@ header {
 
 footer {
   margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width:50%;
   text-align: center;
   
@@ -145,6 +147,4 @@ a {
   margin-left: 2%;
 }
 
-.contact-form {
-  
-}
+

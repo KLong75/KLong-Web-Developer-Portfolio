@@ -60,14 +60,14 @@ const Project = () => {
           <div className='col-4'>
             <div className='card shadow-lg'>
               <h3 className='card-title'>{project.title}</h3>
-              <div className='card-body shadow'>
+              <div className='card-body '>
                 <a 
                   href={project.appHref} 
                   target='_blank' 
                   rel='noreferrer' 
                   className=''>    
                     <img
-                      className='img-fluid rounded card-img shadow'
+                      className='card-img shadow'
                       src={require(`../../assets/${project.src}`)}
                       alt={project.alt} 
                     />

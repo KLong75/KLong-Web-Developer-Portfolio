@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <h2 
-        className='section-title card-title'>&lt; About Me /&gt;
+        className='section-title'>&lt; About Me /&gt;
       </h2>
       <section className='container shadow-lg'>
         <div className='row'>
@@ -13,7 +13,7 @@ const About = () => {
             <div className='card shadow-lg'>
               <div className='card-body'>
           {/* <h2 className='section-title card-title'>&lt; About Me /&gt;</h2> */}
-                <img src={aboutImage} alt='Kevin and dog' className='card-img '/>
+                <img src={aboutImage} alt='Kevin and dog' className='card-img'/>
               </div>
             </div>
           </div>

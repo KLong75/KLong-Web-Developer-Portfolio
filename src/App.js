@@ -5,6 +5,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 //import Project from './components/Project';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
       return <Portfolio />
     } else if (currentPage === 'Contact') {
       return <Contact />
+    } else if (currentPage === 'Resume') {
+      return <Resume />
     }
   }
 

@@ -41,10 +41,10 @@ function Contact() {
         <div className='row'>
           <div className='col'>
             <div className='card shadow-lg'>
-            <h4 className='card-title'>&lt; Email: 
-              <a href='mailto:kevinjlong75@gmail.com'>   
-                 kevinjlong75@gmail.com/
-              </a> | Phone: 512-975-0082 /&gt;
+            <h4 className='card-title'>
+              &lt; <a href='mailto:kevinjlong75@gmail.com'>   
+                kevinjlong75@gmail.com
+              </a> | 512-975-0082 /&gt;
             </h4>
               <div className='card-body'>
                 
