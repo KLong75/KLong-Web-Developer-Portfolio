@@ -9,8 +9,6 @@ const Project = () => {
       description: '',
       appHref: 'https://who-do-austin.herokuapp.com/login',
       gitHref: 'https://github.com/truppeiner/who-do',
-      id: 1
-      
     },
     {
       title: 'Movies R Us',
@@ -19,7 +17,6 @@ const Project = () => {
       description: '',
       appHref: 'https://klong75.github.io/Movies-R-Us-KJ/',
       gitHref: 'https://github.com/KLong75/Movies-R-Us-KJ',
-      id: 2
     },
     {
       title: 'Deep Thoughts',
@@ -28,7 +25,6 @@ const Project = () => {
       description: '',
       appHref: 'https://kj-deep-thoughts.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/deep-thoughts',
-      id: 3
     },
     {
       title: 'Budget Tracker',
@@ -37,7 +33,6 @@ const Project = () => {
       description: '',
       appHref: 'https://kj-budget-tracker-pwa.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/budget-tracker-pwa',
-      id:4
     },
     {
       title: 'Work Day Scheduler',
@@ -46,7 +41,6 @@ const Project = () => {
       description: '',
       appHref: 'https://klong75.github.io/daily-calendar/',
       gitHref: 'https://github.com/KLong75/daily-calendar',
-      id: 5
     },
     {
       title: 'Note Taker',
@@ -55,7 +49,6 @@ const Project = () => {
       description: '',
       appHref: 'https://note-taker-gnolvek.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/note-taker',
-      id:6
     },
   ])
 
@@ -69,7 +62,6 @@ const Project = () => {
                 className='card-title'
                 >
                 {project.title}
-            
               </h3>
               <div className='card-body'>
                 <a 
