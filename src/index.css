@@ -1,8 +1,10 @@
 /* whole app */
+
 /* html,
 body {
   height: 100%;
 } */
+
 
 main {
 	margin: 0 auto;
@@ -86,7 +88,12 @@ header {
 }
 
 .navActive {
-  color: gold;
+  color: gray;
+  /* background-color: green; */
+  text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
+  /* text-transform: uppercase; */
+  /* text-decoration-line: overline underline; */
+  
 }
 
 nav li {

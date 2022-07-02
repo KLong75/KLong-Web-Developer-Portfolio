@@ -23,7 +23,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div id='app-container'>
       <Header 
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
