@@ -9,9 +9,9 @@ const Header = (props) => {
       <h1 className=''>&lt;  Kevin Long  |  Full Stack Web Developer /&gt;</h1>
       <Nav 
         setCurrentPage={props.setCurrentPage} 
+        currentPage={props.currentPage}
       />
     </header>
-    
   );
 }
 

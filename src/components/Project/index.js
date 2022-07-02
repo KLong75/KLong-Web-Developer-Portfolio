@@ -65,12 +65,12 @@ const Project = () => {
                   href={project.appHref} 
                   target='_blank' 
                   rel='noreferrer' 
-                  className=''>    
-                    <img
-                      className='card-img shadow'
-                      src={require(`../../assets/${project.src}`)}
-                      alt={project.alt} 
-                    />
+                >    
+                  <img
+                    className='card-img shadow'
+                    src={require(`../../assets/${project.src}`)}
+                    alt={project.alt} 
+                  />
                 </a>
                 <p>{project.description}</p>
                 <a 

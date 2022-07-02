@@ -10,11 +10,6 @@ const App = () => {
 
   const [currentPage, setCurrentPage] = useState('About');
 
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
-  const [contactSelected, setContactSelected] = useState(false);
-  
   const renderView = () => {
     if (currentPage === 'About') {
       return <About />
@@ -28,8 +23,11 @@ const App = () => {
   }
 
   return (
-    <div className=''>
-      <Header setCurrentPage={setCurrentPage}/>
+    <div>
+      <Header 
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      />
       <main className=''>
        { renderView() }
       </main>  
