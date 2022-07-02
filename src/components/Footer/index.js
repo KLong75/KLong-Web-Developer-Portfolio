@@ -1,17 +1,20 @@
 import React from 'react';
-import gitHubLogo from '../../assets/GitHub-Mark-64px.png';
-import linkedInLogo from '../../assets/linkedin.png';
 
 const Footer = () => {
   return (
-    <footer className=''>
+    <footer>
+      <a href='mailto:kevinjlong75@gmail.com'>   
+        <i id='footer-icon' className='fas fa-envelope fa-3x'></i>
+      </a>
       <a href='https://github.com/KLong75' target='_blank' rel='noreferrer' className=''>
-        <img src={gitHubLogo} alt='GitHub icon' className='footer-icon'></img>
+        <i id='footer-icon' className='fab fa-github fa-3x'></i>
       </a>
       <a href='https://www.linkedin.com/in/klong75' target='_blank' rel='noreferrer' className=''>
-        <img src={linkedInLogo} alt='LinkedIn icon' className='footer-icon'></img>
+        <i id='footer-icon' className='fab fa-linkedin fa-3x'></i>
       </a>
-
+      <a href='https://stackoverflow.com/users/18041189/klong75?tab=profile' target='_blank' rel='noreferrer' className=''>
+        <i id='footer-icon' className='fab fa-stack-overflow fa-3x'></i>
+      </a>
     </footer>
   );
 };

@@ -58,18 +58,23 @@ const Project = () => {
         {projects.map((project) => (
           <div className='col-4' key={project.title}>
             <div className='card shadow-lg'>
+              
+              <div className='card-body'>
+
               <h3 
-                className='card-title'
+                id='project-title'
+                className=''
                 >
                 {project.title}
               </h3>
-              <div className='card-body'>
+
                 <a 
                   href={project.appHref} 
                   target='_blank' 
                   rel='noreferrer' 
                  >    
                 <img
+                  id='project-img'
                   className='card-img shadow'
                   src={require(`../../assets/${project.src}`)}
                   alt={project.alt} 
@@ -80,16 +85,11 @@ const Project = () => {
                   href={project.gitHref} 
                   target='_blank' 
                   rel='noreferrer' 
-                  className='git-icon'
+                  // className='git-icon'
                   >
-                    <span 
-                      className='git-repo-label'>&lt; Check out the code on GitHub /&gt;
-                    </span>
-                    <img
-                      className='rounded shadow git-icon'
-                      src={require(`../../assets/GitHub-Mark-32px.png`)}
-                      alt='GitHub icon' 
-                    /> 
+                    <span id='git-repo-label'>&lt; Check out the code on GitHub /&gt;
+                    <i id='git-project-icon' className='fab fa-github'></i></span>
+                    
                 </a>
               </div>
             </div>

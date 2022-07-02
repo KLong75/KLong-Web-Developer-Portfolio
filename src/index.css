@@ -107,12 +107,25 @@ nav li {
 
 
 /* project component */
-.git-icon {
-  margin-left:4%;
+#git-project-icon {
+  margin-left:2%;
+  /* margin-top: 3%; */
 }
 
-.git-repo-label {
-  margin-left: 2%;
+#git-repo-label {
+  margin-left: 5%;
+  margin-top: 0%; 
+} 
+
+#project-img {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#project-title {
+  margin-bottom: 0%;
+  text-align: center;
+
 }
 
 /* resume component */
@@ -165,11 +178,14 @@ footer {
   margin-bottom: 10px;
   width:50%;
   text-align: center;
+  
 }
 
-.footer-icon {
+#footer-icon {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
+
+
