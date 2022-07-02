@@ -11,7 +11,7 @@ const Resume = () => {
       <h2 className='section-title'>&lt; My Resume /&gt;</h2>
     </a>
     <p className='section-title'>&lt; click above to download /&gt;</p>
-    <section className='container '>
+    <section className='container shadow-lg'>
       <div className='row'> 
         <div className='col-12'>
           <div className='card shadow-lg'>
