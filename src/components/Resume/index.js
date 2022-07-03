@@ -10,7 +10,7 @@ const Resume = () => {
     <a href={pdf} download>
       <h2 className='section-title'>&lt; My Resume /&gt;</h2>
     </a>
-    <p className='section-title'>&lt; click above to download /&gt;</p>
+    <p className='section-sub-title'>&lt; click above to download /&gt;</p>
     <section className='container shadow-lg'>
       <div className='row'> 
         <div className='col-12'>
