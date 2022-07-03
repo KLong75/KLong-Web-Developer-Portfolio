@@ -12,7 +12,6 @@ const About = () => {
           <div className='col-4'>
             <div className='card shadow-lg'>
               <div className='card-body'>
-          {/* <h2 className='section-title card-title'>&lt; About Me /&gt;</h2> */}
                 <img src={aboutImage} alt='Kevin and dog' className='card-img'/>
               </div>
             </div>

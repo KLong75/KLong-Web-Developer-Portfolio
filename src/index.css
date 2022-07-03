@@ -5,7 +5,9 @@ body {
   height: 100%;
 } */
 
-
+/* body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+} */
 
 main {
 	margin: 0 auto;
@@ -19,6 +21,7 @@ main {
 
 h1 {
   font-size: 2.25rem;
+  
 }
 
 h2 {
@@ -34,8 +37,7 @@ h4 {
 }
 
 p {
-  font-size: 1.1rem;
-  /* margin-top: 0; */
+  font-size: 1rem;
 }
 
 a {
@@ -45,7 +47,7 @@ a {
 
 .section-title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: .2rem;
   color: gray;
   /* background-color: green; */
   text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
@@ -55,7 +57,8 @@ a {
 
 .section-sub-title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 
 .card {
@@ -198,30 +201,46 @@ textarea:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+#contact-form-container {
+  padding: 0rem;
+}
+
 #contact-form-btn {
   margin-left: 30rem;
   width: 6rem; 
 } 
 
+#contact-form {
+  margin-bottom: 1rem;
+}
+
 #contact-error-text {
   justify-items: end;
 }
 
+/* #carousel-div {
+
+} */
+
 /* footer component */
 footer {
   margin-left: 25%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: .3rem;
+  margin-bottom: .1rem;
   width:50%;
   text-align: center;
-  
 }
 
 #footer-icon {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+#footer-tag-text {
+  font-size: .8rem;
+
 }
 
 

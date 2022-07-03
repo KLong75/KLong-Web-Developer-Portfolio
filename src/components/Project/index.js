@@ -1,4 +1,5 @@
 import React, {useState } from "react";
+// import { MDBRipple } from 'mdb-react-ui-kit';
 
 const Project = () => {
   const [projects] = useState([
@@ -58,38 +59,34 @@ const Project = () => {
         {projects.map((project) => (
           <div className='col-4' key={project.title}>
             <div className='card shadow-lg'>
-              
               <div className='card-body'>
-
-              <h3 
-                id='project-title'
-                className=''
+                <h3 
+                  id='project-title'
+                  className=''
                 >
-                {project.title}
-              </h3>
-
+                  {project.title}
+                </h3>
                 <a 
                   href={project.appHref} 
                   target='_blank' 
                   rel='noreferrer' 
-                 >    
+                >  
                 <img
                   id='project-img'
                   className='card-img shadow'
                   src={require(`../../assets/${project.src}`)}
                   alt={project.alt} 
-                  />
+                />
                 </a>
                 {/* <p>{project.description}</p> */}
                 <a 
                   href={project.gitHref} 
                   target='_blank' 
                   rel='noreferrer' 
-                  // className='git-icon'
-                  >
-                    <span id='git-repo-label'>&lt; Check out the code on GitHub /&gt;
-                    <i id='git-project-icon' className='fab fa-github'></i></span>
-                    
+                >
+                  <span id='git-repo-label'>&lt; Check out the code on GitHub /&gt;
+                    <i id='git-project-icon' className='fab fa-github'></i>
+                  </span>    
                 </a>
               </div>
             </div>

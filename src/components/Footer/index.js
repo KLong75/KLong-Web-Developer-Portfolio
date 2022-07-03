@@ -15,6 +15,7 @@ const Footer = () => {
       <a href='https://stackoverflow.com/users/18041189/klong75?tab=profile' target='_blank' rel='noreferrer' className=''>
         <i id='footer-icon' className='fab fa-stack-overflow fa-3x'></i>
       </a>
+      <p id='footer-tag-text' className='section-sub-title'>&lt; Let's build something great. /&gt;</p>
     </footer>
   );
 };

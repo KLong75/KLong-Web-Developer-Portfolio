@@ -7,10 +7,10 @@ const Resume = () => {
 
   return (
     <>
+    <h2 className='section-title'>&lt; My Resume /&gt;</h2>
     <a href={pdf} download>
-      <h2 className='section-title'>&lt; My Resume /&gt;</h2>
+      <p className='section-sub-title'>&lt; Click to download my resume. /&gt;</p>
     </a>
-    <p className='section-sub-title'>&lt; click above to download /&gt;</p>
     <section className='container shadow-lg'>
       <div className='row'> 
         <div className='col-12'>

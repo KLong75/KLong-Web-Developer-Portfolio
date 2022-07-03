@@ -4,8 +4,8 @@ import Project from '../Project';
 const Portfolio = () => {
   return (
     <section className=''>
-      <h2 className='section-title'>&lt; Portfolio /&gt;</h2>
-      <p className='section-sub-title'>&lt; click on a pic to check out the app /&gt;</p>
+      <h2 className='section-title'>&lt; My Portfolio /&gt;</h2>
+      <p className='section-sub-title'>&lt; Click on a pic to check out the deployed app. /&gt;</p>
       <Project />
     </section>
   );
