@@ -18,7 +18,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.name} is required`);
       } else {
         setErrorMessage('');
       }
@@ -48,30 +48,27 @@ function Contact() {
                 </a> | 512-975-0082 /&gt;
               </h4>
               <div className='card-body container'>
-                
-              
                 <form id='contact-form' className='contact-form' onSubmit={handleSubmit}>
-                 <div className='row'>
-                  <div className='col-4'>
-
-                    <label id='contact-form-label' htmlFor='name' className=''>Name:</label>
-                    <input type='text' defaultValue={name} onBlur={handleChange} name='name' />
-               
-                    <label id='contact-form-label' htmlFor='email' className=''>Email address:</label>
-                    <input type='email' defaultValue={email} onBlur={handleChange} name='email' className='' />
-                    
+                  <div className='row'>
+                    <div className='col-4'>
+                      <label id='contact-form-label' htmlFor='name' className=''>Name:</label>
+                      <input type='text' defaultValue={name} onBlur={handleChange} name='name' />
+        
+                      <label id='contact-form-label' htmlFor='email' className=''>Email address:</label>
+                      <input type='email' defaultValue={email} onBlur={handleChange} name='email' className='' />
                     </div>
 
                     <div className='col-8'>
-                    <label id='contact-message-label' htmlFor='message'>Message:</label>
-                    <textarea name='message' className='' defaultValue={message} onBlur={handleChange} rows='4' />
+                      <label id='contact-message-label' htmlFor='message'>Message:</label>
+                      <textarea name='message' className='' defaultValue={message} onBlur={handleChange} rows='4' />
                     
-                  {errorMessage && (
-                    <p id='contact-error-text' className='error-text text-danger'>{errorMessage}</p>
-                  )}
-                  <button type='submit' className='btn btn-secondary' id='contact-form-btn' data-testid='button'>Submit</button>
-                  </div>
+                      {errorMessage && (
+                       <p id='contact-error-text' className='error-text text-danger'>{errorMessage}</p>
+                      )}
+                      <button type='submit' className='btn btn-secondary' id='contact-form-btn' data-testid='button'>Submit</button>
 
+                    
+                    </div>
                   </div>
                 </form>              
               </div>
