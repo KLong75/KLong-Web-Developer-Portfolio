@@ -122,7 +122,7 @@ nav li {
 
 /* project component */
 #git-project-icon {
-  margin-left:2%;
+  margin-bottom: .2rem;
 }
 
 #git-repo-label {
@@ -247,7 +247,6 @@ footer {
   margin-bottom: .5rem;
   width:50%;
   text-align: center;
-  
 }
 
 #footer-icon {
@@ -255,11 +254,12 @@ footer {
   margin-right: 20px;
   margin-top: .2rem;
   margin-bottom: 0rem;
+  size: 2em;
 }
 
 #footer-tag-text {
   font-size: .8rem;
-
+  margin-top: .2rem;
 }
 
 

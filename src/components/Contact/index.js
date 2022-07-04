@@ -91,8 +91,7 @@ function Contact() {
                   </div>
                 </form>  
                 <div id='carousel-div'>
-                  <Carousel/>
-                    <Carousel id='carousel' cols={3} rows={1} gap={20} autoplay={5000} loop={true} hideArrow={true} >
+                  <Carousel id='carousel' cols={3} rows={1} gap={20} autoplay={5000} loop={true} hideArrow={true} >
                     <Carousel.Item>
                       <img width="100%" src={whoDoCreateEventImg} alt='screenshot of app'/>
                     </Carousel.Item>
