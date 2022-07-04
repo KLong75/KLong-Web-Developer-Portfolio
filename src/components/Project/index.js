@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-// import { MDBRipple } from 'mdb-react-ui-kit';
+
 
 const Project = () => {
   const [projects] = useState([

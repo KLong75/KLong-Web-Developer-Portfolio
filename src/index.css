@@ -5,15 +5,10 @@ body {
   height: 100%;
   background-color:  #d7d7d8;
 }
-/* body {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-} */
+ body {
+   font-family: 'Helvetica', Arial, sans-serif;  
 
-main {
-	/* margin: 0 auto; */
-	/* max-width: 100%;  */
-  
-}
+} 
 
 .flex-row {
   display: flex;
@@ -50,9 +45,7 @@ a {
   text-align: center;
   margin-bottom: .2rem;
   color: gray;
-  /* background-color: green; */
   text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
-  /* text-decoration-line: overline underline; */
 }
 
 .section-sub-title {
@@ -78,7 +71,6 @@ a {
 
 /* header component */
 header {
-  /* width:100%; */
   text-align: center;
   padding-top: 10px;
   background-color: #d7d7d8;
@@ -105,11 +97,7 @@ header {
 
 .navActive {
   color: gray;
-  /* background-color: green; */
   text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
-  /* text-transform: uppercase; */
-  /* text-decoration-line: overline underline; */
-  
 }
 
 nav li {
@@ -130,7 +118,7 @@ nav li {
 }
 
 /* portfolio component */
-
+/* no css on portfolio component */
 
 /* project component */
 #git-project-icon {
@@ -175,7 +163,6 @@ nav li {
 }
 
 /* contact component */
-
 #contact-form-label {
   margin-left: 8rem;
   width: 15rem;
