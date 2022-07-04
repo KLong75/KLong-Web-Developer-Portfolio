@@ -1,5 +1,8 @@
 import React, {useState } from "react";
 
+import { FaGithub } from 'react-icons/fa';
+
+
 
 const Project = () => {
   const [projects] = useState([
@@ -84,8 +87,7 @@ const Project = () => {
                   target='_blank' 
                   rel='noreferrer' 
                 >
-                  <span id='git-repo-label'>&lt; Check out the code on GitHub /&gt;
-                    <i id='git-project-icon' className='fab fa-github'></i>
+                  <span id='git-repo-label'>&lt; Check out the code on GitHub. <FaGithub id='git-project-icon' size={18} />  /&gt;
                   </span>    
                 </a>
               </div>
