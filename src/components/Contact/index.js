@@ -60,10 +60,10 @@ function Contact() {
       </h2>
       <p className='section-sub-title'>&lt; Let's build something great. /&gt;</p>
       <section className='container shadow-lg'>
-        <div className='row'>
+        <div className='row' id='contact-row'>
           <div className='col'>
             <div id='contact-card' className='card shadow-lg'>
-              <h4 className='card-title'> 
+              <h4 className='card-title' id='contact-card-title'> 
                 <a href='mailto:kevinjlong75@gmail.com'>   
                 &lt; kevinjlong75@gmail.com
                 </a> | 512-975-0082 /&gt;
@@ -91,7 +91,7 @@ function Contact() {
                   </div>
                 </form>  
                 <div id='carousel-div'>
-                  <Carousel id='carousel' cols={3} rows={1} gap={40} autoplay={5000} loop={true} hideArrow={true} >
+                  <Carousel id='carousel' cols={3} rows={1} gap={20} autoplay={5000} loop={true} hideArrow={true} >
                     <Carousel.Item>
                       <img width="100%" src={whoDoCreateEventImg} alt='screenshot of app'/>
                     </Carousel.Item>

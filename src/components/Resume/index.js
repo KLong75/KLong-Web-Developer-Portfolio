@@ -12,14 +12,14 @@ const Resume = () => {
       <p className='section-sub-title'>&lt; Click to download my resume. /&gt;</p>
     </a>
     <section className='container shadow-lg'>
-      <div className='row'> 
+      <div className='row' id='resume-row'> 
         <div className='col-12'>
           <div className='card shadow-lg'>
-            <div className='card-body'> 
+            <div className='' id=''>  
               <Document file={pdf} className='pdf'>
                 <Page pageNumber={1} /> 
               </Document>
-             </div>
+            </div> 
           </div>  
         </div>
         <div className='col-12'>

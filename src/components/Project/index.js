@@ -55,11 +55,11 @@ const Project = () => {
 
   return (
     <section className='container shadow-lg'>
-      <div className='row portfolio-row'>
+      <div className='row' id='portfolio-row'>
         {projects.map((project) => (
           <div className='col-4' key={project.title}>
-            <div className='card shadow-lg'>
-              <div className='card-body'>
+            <div className='card shadow-lg' id='project-card'>
+              <div  className='card-body shadow'>
                 <h3 
                   id='project-title'
                   className=''

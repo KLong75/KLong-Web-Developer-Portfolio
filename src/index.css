@@ -1,17 +1,18 @@
 /* whole app */
 
-/* html,
+html,
 body {
   height: 100%;
-} */
-
+  background-color:  #d7d7d8;
+}
 /* body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 } */
 
 main {
-	margin: 0 auto;
-	/* max-width: 100%; */
+	/* margin: 0 auto; */
+	/* max-width: 100%;  */
+  
 }
 
 .flex-row {
@@ -51,13 +52,12 @@ a {
   color: gray;
   /* background-color: green; */
   text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
-  /* text-transform: uppercase; */
   /* text-decoration-line: overline underline; */
 }
 
 .section-sub-title {
   text-align: center;
-  margin-bottom: 0rem;
+  margin-bottom: .2rem;
   margin-top: 0rem;
 }
 
@@ -68,6 +68,7 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
+  background-color: white;
 } 
 
 .card-title {
@@ -80,6 +81,7 @@ header {
   /* width:100%; */
   text-align: center;
   padding-top: 10px;
+  background-color: #d7d7d8;
 }
 
 
@@ -115,7 +117,17 @@ nav li {
 }
 
 /* about component */
+#about-me-text {
+  margin-top: 1rem;
+}
 
+#about-me-row {
+  background-color: #86888a;
+}
+
+#about-me-card {
+  background-color: #afafb1;
+}
 
 /* portfolio component */
 
@@ -123,7 +135,6 @@ nav li {
 /* project component */
 #git-project-icon {
   margin-left:2%;
-  /* margin-top: 3%; */
 }
 
 #git-repo-label {
@@ -139,22 +150,31 @@ nav li {
 #project-title {
   margin-bottom: 0%;
   text-align: center;
+}
 
+#project-card {
+  background-color: #afafb1;
+}
+
+#portfolio-row {
+  background-color: #86888a;
 }
 
 /* resume component */
 .pdf {
    margin-left: 22%; 
-   
-  /* margin-top: 0%; */
-  /* width:50%; */
-   /* text-align: center;  */
+   margin-bottom: 0rem;
+}
+
+#resume-div {
+  margin-bottom: 1rem;
+}
+
+#resume-row {
+  background-color: #86888a;
 }
 
 /* contact component */
-form {
-  /* width: 100%; */
-}
 
 #contact-form-label {
   margin-left: 8rem;
@@ -218,23 +238,35 @@ textarea:focus {
   justify-items: end;
 }
 
-/* #carousel-div {
+#contact-row {
+  background-color: #86888a;
+}
+#contact-card {
+  background-color: #afafb1;
+}
 
-} */
+#contact-card-title {
+  margin-top: .5rem;
+}
+
+#carousel-div {
+ margin-bottom: .75rem;
+} 
 
 /* footer component */
 footer {
   margin-left: 25%;
-  margin-top: .3rem;
-  margin-bottom: .1rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
   width:50%;
   text-align: center;
+  
 }
 
 #footer-icon {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 0rem;
+  margin-top: .2rem;
   margin-bottom: 0rem;
 }
 
@@ -293,8 +325,6 @@ footer {
       text-align: center;
       width: 100%
   }
-
-  
 
   .section-title {
     text-align: center;
