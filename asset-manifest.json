@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/klong-web-developer-portfolio/static/css/main.1aab5391.css",
-    "main.js": "/klong-web-developer-portfolio/static/js/main.597b405e.js",
+    "main.css": "/klong-web-developer-portfolio/static/css/main.7ffe0881.css",
+    "main.js": "/klong-web-developer-portfolio/static/js/main.b2387568.js",
     "static/js/787.d6450f07.chunk.js": "/klong-web-developer-portfolio/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/klong-web-developer-portfolio/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/Screenshot (129).png": "/klong-web-developer-portfolio/static/media/Screenshot (129).de30b2f9e0f05463f66f.png",
@@ -34,12 +34,12 @@
     "static/media/about-imageold.jpg": "/klong-web-developer-portfolio/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
     "static/media/KJHeadSHot.jpg": "/klong-web-developer-portfolio/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "index.html": "/klong-web-developer-portfolio/index.html",
-    "main.1aab5391.css.map": "/klong-web-developer-portfolio/static/css/main.1aab5391.css.map",
-    "main.597b405e.js.map": "/klong-web-developer-portfolio/static/js/main.597b405e.js.map",
+    "main.7ffe0881.css.map": "/klong-web-developer-portfolio/static/css/main.7ffe0881.css.map",
+    "main.b2387568.js.map": "/klong-web-developer-portfolio/static/js/main.b2387568.js.map",
     "787.d6450f07.chunk.js.map": "/klong-web-developer-portfolio/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aab5391.css",
-    "static/js/main.597b405e.js"
+    "static/css/main.7ffe0881.css",
+    "static/js/main.b2387568.js"
   ]
 }
