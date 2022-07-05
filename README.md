@@ -6,6 +6,9 @@
 This website wascreated with REACT for the purpose of displaying and sharing my work as a web developer.
 
 ## Screenshots of App
+![KLong_Portfolio_About_Me](https://user-images.githubusercontent.com/98487770/177222235-3518b400-aee6-40bd-9ce9-2bb8fcc878b1.png)
+![KLong_Portfolio](https://user-images.githubusercontent.com/98487770/177222243-fb5acafc-aa1f-42ca-a9d7-b14f4568adff.png)
+![KLong_Portfolio_Contact](https://user-images.githubusercontent.com/98487770/177222247-6e91c5db-521a-4b90-bc6c-8138072d077e.png)
 
 
 ## Table of Contents
