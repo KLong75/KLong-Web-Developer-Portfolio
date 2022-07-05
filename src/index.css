@@ -218,11 +218,12 @@ textarea:focus {
 } 
 
 #contact-form {
-  margin-bottom: 1rem;
+  margin-bottom: .6rem;
 }
 
 #contact-error-text {
   justify-items: end;
+  margin-bottom: 0em;
 }
 
 #contact-row {
@@ -237,7 +238,7 @@ textarea:focus {
 }
 
 #carousel-div {
- margin-bottom: .75rem;
+ margin-bottom: .6rem;
 } 
 
 /* footer component */
