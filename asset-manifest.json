@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/klong-web-developer-portfolio/static/css/main.7ffe0881.css",
-    "main.js": "/klong-web-developer-portfolio/static/js/main.b2387568.js",
+    "main.css": "/klong-web-developer-portfolio/static/css/main.c3eb3878.css",
+    "main.js": "/klong-web-developer-portfolio/static/js/main.1110efac.js",
     "static/js/787.d6450f07.chunk.js": "/klong-web-developer-portfolio/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/klong-web-developer-portfolio/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
+    "static/media/musicology-gif.gif": "/klong-web-developer-portfolio/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
     "static/media/Screenshot (129).png": "/klong-web-developer-portfolio/static/media/Screenshot (129).de30b2f9e0f05463f66f.png",
     "static/media/who-do-event-details.png": "/klong-web-developer-portfolio/static/media/who-do-event-details.144deb5701b4af767954.png",
     "static/media/note-taker-home.png": "/klong-web-developer-portfolio/static/media/note-taker-home.7344df8429afc018d180.png",
@@ -13,8 +14,11 @@
     "static/media/movies-r-us-sci-fi-results.png": "/klong-web-developer-portfolio/static/media/movies-r-us-sci-fi-results.52ed590dd573c5b6235e.png",
     "static/media/Who_Do_login.png": "/klong-web-developer-portfolio/static/media/Who_Do_login.08d38f6fb34ca1120d47.png",
     "static/media/who-do-event-feed.png": "/klong-web-developer-portfolio/static/media/who-do-event-feed.dc2d42254d82756732b4.png",
+    "static/media/musicology-lp.png": "/klong-web-developer-portfolio/static/media/musicology-lp.83e1718f0e480098e0fe.png",
     "static/media/movies-r-us-homepage.png": "/klong-web-developer-portfolio/static/media/movies-r-us-homepage.c4b0f2839fc757e5c1d3.png",
+    "static/media/musicology-pro.png": "/klong-web-developer-portfolio/static/media/musicology-pro.661cae9626a87b3b245c.png",
     "static/media/Team Profile Generator.png": "/klong-web-developer-portfolio/static/media/Team Profile Generator.c76a94fbf38bd49c2dc4.png",
+    "static/media/musicology-bb.png": "/klong-web-developer-portfolio/static/media/musicology-bb.fb773e878e57b7e3030e.png",
     "static/media/work-day-scheduler.png": "/klong-web-developer-portfolio/static/media/work-day-scheduler.d67a50ae871cecca729e.png",
     "static/media/budget-tracker.png": "/klong-web-developer-portfolio/static/media/budget-tracker.0061668202214e7ec1bb.png",
     "static/media/Who_Do_create_event.png": "/klong-web-developer-portfolio/static/media/Who_Do_create_event.cd95041cf939250c8609.png",
@@ -34,12 +38,12 @@
     "static/media/about-imageold.jpg": "/klong-web-developer-portfolio/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
     "static/media/KJHeadSHot.jpg": "/klong-web-developer-portfolio/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "index.html": "/klong-web-developer-portfolio/index.html",
-    "main.7ffe0881.css.map": "/klong-web-developer-portfolio/static/css/main.7ffe0881.css.map",
-    "main.b2387568.js.map": "/klong-web-developer-portfolio/static/js/main.b2387568.js.map",
+    "main.c3eb3878.css.map": "/klong-web-developer-portfolio/static/css/main.c3eb3878.css.map",
+    "main.1110efac.js.map": "/klong-web-developer-portfolio/static/js/main.1110efac.js.map",
     "787.d6450f07.chunk.js.map": "/klong-web-developer-portfolio/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ffe0881.css",
-    "static/js/main.b2387568.js"
+    "static/css/main.c3eb3878.css",
+    "static/js/main.1110efac.js"
   ]
 }
