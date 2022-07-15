@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+
 import { validateEmail } from '../../utils/helpers';
+
 import Carousel from 'better-react-carousel';
 // import whoDoLoginImg from '../../assets/Who_Do_login.png';
 import budgetTrackerImg from '../../assets/budget-tracker.png';
@@ -51,6 +53,7 @@ function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
+    
   }
 
   return (
@@ -82,10 +85,11 @@ function Contact() {
                     <div className='col-8'>
                       <label id='contact-message-label' htmlFor='message'>Message:</label>
                       <textarea name='message' className='' defaultValue={message} onBlur={handleChange} rows='4' />
-                    
+                    <div>
                       {errorMessage && (
                        <p id='contact-error-text' className='error-text text-danger'>{errorMessage}</p>
                       )}
+                    </div>
                       <button type='submit' className='btn btn-secondary' id='contact-form-btn' data-testid='button'>Submit</button>
                     </div>
                   </div>
