@@ -3,9 +3,16 @@ import React, {useState } from "react";
 import { FaGithub } from 'react-icons/fa';
 
 
-
 const Project = () => {
   const [projects] = useState([
+    { 
+      title: 'MUSICOLOGY',
+      src: 'musicology-gif.gif',
+      alt: 'screenshot of app',
+      description: '',
+      appHref:'https://musicology-umekev.herokuapp.com/',
+      gitHref:'https://github.com/KLong75/musician-networking-app',
+    },
     {
       title: 'Who Do?',
       src: 'Who_Do_login.png',
