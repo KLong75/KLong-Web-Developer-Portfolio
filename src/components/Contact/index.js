@@ -6,7 +6,7 @@ import budgetTrackerImg from '../../assets/budget-tracker.png';
 // import deepThoughtsImg from '../../assets/deep-thoughts-signup.png';
 // import moviesAvengersImg from '../../assets/avengersportfolio.png';
 // import noteTakerImg from '../../assets/note-taker2.png';
-import workDaySchedulerImg from '../../assets/work-day-scheduler.png';
+// import workDaySchedulerImg from '../../assets/work-day-scheduler.png';
 import whoDoEventFeedImg from '../../assets/who-do-event-feed.png';
 import whoDoEventDetailsImg from '../../assets/who-do-event-details.png';
 import whoDoCreateEventImg from '../../assets/Who_Do_create_event.png';
@@ -16,10 +16,14 @@ import moviesDetailImg from '../../assets/movies-r-us-dune.png';
 import deepToughtsFeedImg from '../../assets/deep-thoughts-feed.png';
 import deepThoughtsSingleThoughtImg from '../../assets/deep-thoughts-single-thought.png';
 import deepThoughtsUserProfileImg from '../../assets/deep-thoughts-user-profile.png';
-import deepThoughtsUserThoughtsImg from '../../assets/deep-thoughts-user-thoughts.png';
-import workDaySchedulerImg2 from '../../assets/work-day-img2.png';
+// import deepThoughtsUserThoughtsImg from '../../assets/deep-thoughts-user-thoughts.png';
+// import workDaySchedulerImg2 from '../../assets/work-day-img2.png';
 import budgetTrackerImg3 from '../../assets/budget-tracker-img3.png';
 import budgetTrackerImg2 from '../../assets/budget-tracker-img2.png';
+import musicology1 from '../../assets/musicology-pro.png';
+import musicology2 from '../../assets/musicology-lp.png';
+import musicology3 from '../../assets/musicology-bb.png';
+
 
 
 function Contact() {
@@ -92,6 +96,17 @@ function Contact() {
                 </form>  
                 <div id='carousel-div'>
                   <Carousel id='carousel' cols={3} rows={1} gap={20} autoplay={5000} loop={true} hideArrow={true} >
+
+                    <Carousel.Item>
+                      <img width="100%" src={musicology1} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={musicology2} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={musicology3} alt='screenshot of app'/>
+                    </Carousel.Item>
+
                     <Carousel.Item>
                       <img width="100%" src={whoDoCreateEventImg} alt='screenshot of app'/>
                     </Carousel.Item>
@@ -120,16 +135,6 @@ function Contact() {
                     </Carousel.Item>
                     <Carousel.Item>
                       <img width="100%" src={deepThoughtsUserProfileImg} alt='screenshot of app'/>
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img width="100%" src={deepThoughtsUserThoughtsImg} alt='screenshot of app'/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img width="100%" src={workDaySchedulerImg} alt='screenshot of app'/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img width="100%" src={workDaySchedulerImg2} alt='screenshot of app' />
                     </Carousel.Item>
 
                     <Carousel.Item>
