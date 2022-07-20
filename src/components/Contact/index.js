@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
 import { validateEmail } from '../../utils/helpers';
 import Carousel from 'better-react-carousel';
 // import whoDoLoginImg from '../../assets/Who_Do_login.png';
@@ -26,7 +27,9 @@ import musicology3 from '../../assets/musicology-bb.png';
 
 
 
-function Contact() {
+
+const Contact = () => {
+  
   const [formState, setFormState] = useState({ name: '', email: '', message: ''});
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
@@ -51,12 +54,29 @@ function Contact() {
       setFormState({ ...formState, [e.target.name]: e.target.value });  
     }
   };
-  
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-  }
 
+  const form = useRef();
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_vboqyuj', 'template_pfny3q7', form.current, 'sXBZoSzco5PV7qrW2')
+     
+      .then((result) => {
+          console.log(result.text);
+          alert('Thank you. Your message has been sent.');
+      }, (error) => {
+          console.log(error.text);
+      });
+      //why won't form clear?
+      setFormState({
+        name: '',
+        email: '',
+        message: ''
+      });
+      e.target.reset()
+  };
+  
   return (
     <>
       <h2 
@@ -73,7 +93,7 @@ function Contact() {
                 </a> | 512-975-0082 /&gt;
               </h4>
               <div id='contact-form-container' className='card-body container'>
-                <form id='contact-form' className='contact-form' onSubmit={handleSubmit}>
+                <form ref={form} id='contact-form' className='contact-form' onSubmit={sendEmail}>
                   <div className='row'>
                     <div className='col-4'>
                       <label id='contact-form-label' htmlFor='name' className=''>Name:</label>
