@@ -17,7 +17,6 @@ body {
 
 h1 {
   font-size: 2.25rem;
-  
 }
 
 h2 {
@@ -78,21 +77,12 @@ header {
 
 
 /* nav component */
-
 #nav-list {
-  padding: 20px;
+  padding: 8px;
   list-style: none;
-  font-size: 1.19rem;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-}
-
-.nav-list {
-  padding: 20px;
-  list-style: none;
-  font-size: 1.19rem;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
+  font-size: 1.4rem;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .navActive {
@@ -121,6 +111,7 @@ nav li {
 /* no css on portfolio component */
 
 /* project component */
+
 #git-project-icon {
   margin-bottom: .2rem;
 }
@@ -193,7 +184,7 @@ input:focus {
 }
 
 textarea {
-	width: 26rem;
+	width: 27rem;
 	height: 6.5rem; 
 	border: 2px solid #7e7c7c;
   border-radius: 3px;
@@ -213,7 +204,7 @@ textarea:focus {
 }
 
 #contact-form-btn {
-  margin-left: 30rem;
+  margin-left: 30.9rem;
   width: 6rem; 
 } 
 
@@ -262,10 +253,61 @@ footer {
   font-size: .8rem;
   margin-top: .2rem;
 }
+/*Begin Media Queries */
+@media screen and (max-width:1200px) {
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  } 
+  #nav-list {
+    padding: 1rem;
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
 
+  textarea  {
+    width: 24rem;
+    margin-left: 6rem;
+  }
+  #contact-form-btn {
+    margin-left: 24rem;
+    width: 6rem; 
+  } 
+}
+
+@media screen and (max-width:993px) {
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  } 
+  
+  input {
+    width: 10rem;
+    margin-left: 4rem;
+  }
+
+  textarea  {
+    width: 18rem;
+    margin-left: 6rem;
+  }
+
+  #contact-form-btn {
+    margin-left: 18rem;
+    width: 6rem; 
+  } 
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  } 
+ 
   input {
     width: 8rem;
   }
@@ -277,37 +319,23 @@ footer {
 
   #contact-message-label {
     margin-left: 8rem;
- }
+  }
 
  #contact-form-btn {
   margin-left: 14rem;
   width: 6rem; 
-} 
+ } 
 
  .pdf {
   display:inline;
-}
+ }
 
-  /* header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-  } */
-
-  /* header h1 {
-      width: 100%;
-      text-align: center;
-  } */
-
+  
   header nav ul {
       margin-top: 20px;
       width: 100%;
       justify-content: center;
   } 
-
-  /* header nav ul li a {
-      font-size: 20px;
-  } */
 
   footer h2, footer div {
       text-align: center;
@@ -322,14 +350,31 @@ footer {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .section-sub-title {
+    font-size: .8rem;
+  }
+  ul {
+    padding-left: 0;
+  }
+  #nav-list {
+    padding: 8px;
+    list-style: none;
+    font-size: 1rem;
+    margin: .5rem;
+  }
   section {
       padding: 30px 15px;
   }
-
   .pdf {
     display: none;
   }
-
   input {
     width: 8rem;
     margin-left: 3rem;
@@ -337,6 +382,9 @@ footer {
   #contact-form-label {
     margin-left: 3rem;
     width: 15rem;
+  }
+  #contact-card-title {
+    font-size: 1rem;
   }
 
   textarea  {
@@ -346,23 +394,82 @@ footer {
 
   #contact-message-label {
     margin-left: 4rem;
- }
+  }
 
   #contact-form-btn {
     margin-left: 10rem;
     width: 6rem; 
-} 
+  } 
 
 }
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575PX) {
+  
+  h1 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 
+  h2 {
+    font-size: 1rem;
+  }
+  .section-sub-title {
+    font-size: .8rem;
+  }
+  ul {
+    padding-left: 0;
+   
+  }
+  #nav-list {
+    padding: 8px;
+    list-style: none;
+    font-size: .75rem;
+    margin: .5rem;
+  }
   .section-title {
       width: 100%;
   }
 
+  /*About*/
+  #about-me-pic-div {
+    display: none;
+  }
+  #about-me-text {
+    font-size: .8rem;
+  }
+  #about-me-section {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  /*Portfolio*/
+  #portfolio-container {
+    padding-top: 0%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  /*Project*/
+ 
+  #project-title {
+    font-size: .8rem;
+  }
+  #git-repo-label {
+    font-size: .7rem;
+  }
+  #git-project-icon {
+    height: .7rem;
+  }
+  
+
+  /*Contact*/
+  #contact-container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+ 
   input {
     width: 6rem;
     margin-left: 1rem;
@@ -370,23 +477,187 @@ footer {
   #contact-form-label {
     margin-left: 1rem;
     width: 8rem;
+    font-size: .8rem;
   }
 
-
   textarea  {
-    width: 10rem;
+    width: 10.7rem;
     margin-left: 2rem;
   }
 
   #contact-message-label {
     margin-left: 2rem;
- }
+    font-size: .8rem;
+  }
+  #contact-form-btn {
+    margin-left: 8.5rem;
+    width: 4rem; 
+    font-size: .6rem;
+  } 
+  #contact-error-text {
+    font-size: .8rem;
+  }
+  ::placeholder {
+    font-size: .6rem;
+  }
+  #carousel-div {
+    display: none;
+  }
+ 
+  #resume-container {
+    display: none;
+  }
 
- #contact-form-btn {
-  margin-left: 6rem;
-  width: 6rem; 
-} 
+  footer {
+    margin-top: 1rem;
+    margin-bottom: .5%;
+  }
+
+  #footer-icon {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: .2rem;
+    margin-bottom: 0rem;
+    height: 1.5rem;
+  }
+
+  #footer-tag-text {
+    font-size: .8rem;
+    margin-top: .2rem;
+  }
 
 }
 
+@media screen and (max-width: 380PX) {
+  
+  #nav-list {
+    padding: 8px;
+    list-style: none;
+    font-size: .75rem;
+    margin: .2rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  input {
+    width: 6rem;
+    margin-left: .4rem;
+  } 
+
+  #contact-card-title {
+    font-size: .8rem;
+  }
+
+  #contact-form-label {
+    margin-left: 1rem;
+    width: 8rem;
+    font-size: .8rem;
+  }
+
+  textarea  {
+    width: 8rem;
+    margin-left: 1rem;
+  }
+
+  #contact-message-label {
+    margin-left: 1rem;
+    font-size: .8rem;
+  }
+
+  #contact-form-btn {
+    margin-left: 4.9rem;
+    width: 4rem; 
+    font-size: .6rem;
+  } 
+
+  #contact-error-text {
+    font-size: .8rem;
+  }
+
+  ::placeholder {
+    font-size: .6rem;
+  }
+
+  #carousel-div {
+    display: none;
+  }
+
+/*Footer*/
+#footer-icon {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: .2rem;
+  margin-bottom: 0rem;
+  height: 1.5rem;
+}
+
+#footer-tag-text {
+  font-size: .6rem;
+  margin-top: .2rem;
+  margin-bottom: .2rem;
+}
+
+
+}
+
+@media screen and (max-width: 281PX) {
+  #nav-list {
+    padding: 0.4rem;
+    list-style: none;
+    font-size: .65rem;
+    margin: 0rem;
+  }
+
+   input {
+    width: 4rem;
+    margin-left: .5rem;
+  } 
+  #contact-card-title {
+    font-size: .6rem;
+  }
+  #contact-form-label {
+    margin-left: .6rem;
+    width: 8rem;
+    font-size: .6rem;
+  }
+  
+  textarea  {
+    width: 8rem;
+    margin-left: .5rem;
+  }
+  
+  #contact-message-label {
+    margin-left: .5rem;
+    font-size: .6rem;
+  }
+  #contact-form-btn {
+    margin-left: 4.4rem;
+    width: 4rem; 
+    font-size: .6rem;
+  } 
+  #contact-error-text {
+    font-size: .8rem;
+  }
+  ::placeholder {
+    font-size: 0rem;
+  }
+  #carousel-div {
+    display: none;
+  }
+  #footer-icon {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: .2rem;
+    margin-bottom: 0rem;
+    height: 1.3rem;
+  }
+
+  #footer-tag-text {
+    font-size: .6rem;
+    margin-top: .2rem;
+  }
+}
 

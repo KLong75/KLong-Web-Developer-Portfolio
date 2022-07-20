@@ -68,7 +68,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
-      //why won't form clear?
+      
       setFormState({
         name: '',
         email: '',
@@ -83,7 +83,7 @@ const Contact = () => {
         data-testid='contact' className='section-title'>&lt; Contact Me /&gt;
       </h2>
       <p className='section-sub-title'>&lt; Let's build something great. /&gt;</p>
-      <section className='container shadow-lg'>
+      <section className='container shadow-lg' id='contact-container'>
         <div className='row' id='contact-row'>
           <div className='col'>
             <div id='contact-card' className='card shadow-lg'>
@@ -96,16 +96,16 @@ const Contact = () => {
                 <form ref={form} id='contact-form' className='contact-form' onSubmit={sendEmail}>
                   <div className='row'>
                     <div className='col-4'>
-                      <label id='contact-form-label' htmlFor='name' className=''>Name:</label>
-                      <input type='text' defaultValue={name} onBlur={handleChange} name='name' />
+                      <label id='contact-form-label'  htmlFor='name' className=''>Name:</label>
+                      <input type='text' placeholder='Your name' defaultValue={name} onBlur={handleChange} name='name' required />
         
                       <label id='contact-form-label' htmlFor='email' className=''>Email address:</label>
-                      <input type='email' defaultValue={email} onBlur={handleChange} name='email' className='' />
+                      <input type='email' placeholder='Your email address' defaultValue={email} onBlur={handleChange} name='email' className='' required />
                     </div>
 
                     <div className='col-8'>
                       <label id='contact-message-label' htmlFor='message'>Message:</label>
-                      <textarea name='message' className='' defaultValue={message} onBlur={handleChange} rows='4' />
+                      <textarea name='message' placeholder='Your message' className='' defaultValue={message} onBlur={handleChange} rows='4' required/>
                     
                       {errorMessage && (
                        <p id='contact-error-text' className='error-text text-danger'>{errorMessage}</p>
