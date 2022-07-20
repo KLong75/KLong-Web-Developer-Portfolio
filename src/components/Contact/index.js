@@ -83,7 +83,7 @@ const Contact = () => {
         data-testid='contact' className='section-title'>&lt; Contact Me /&gt;
       </h2>
       <p className='section-sub-title'>&lt; Let's build something great. /&gt;</p>
-      <section className='container shadow-lg'>
+      <section className='container shadow-lg' id='contact-container'>
         <div className='row' id='contact-row'>
           <div className='col'>
             <div id='contact-card' className='card shadow-lg'>

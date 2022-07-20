@@ -64,10 +64,10 @@ const Project = () => {
   ])
 
   return (
-    <section className='container shadow-lg'>
+    <section className='container shadow-lg'id=''>
       <div className='row' id='portfolio-row'>
         {projects.map((project) => (
-          <div className='col-4' key={project.title}>
+          <div className='col-4' id='individual-project' key={project.title}>
             <div className='card shadow-lg' id='project-card'>
               <div  className='card-body shadow'>
                 <h3 
