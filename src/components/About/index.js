@@ -10,7 +10,7 @@ const About = () => {
       <p className='section-sub-title'>&lt; From puppeteer to programmer... /&gt;</p>
       <section className='container shadow-lg' id='about-me-section'>
         <div className='row' id='about-me-row'>
-          <div className='col-4' id='about-me-pic-div'>
+          <div className='col-lg-4 col-md-6 col-sm-12' id='about-me-pic-div'>
             <div className='card shadow-lg' id='about-me-card'>
               <div className='card-body' >
                 <img src={aboutImage} alt='Kevin and dog' className='card-img'/>
