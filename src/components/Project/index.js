@@ -67,7 +67,7 @@ const Project = () => {
     <section className='container shadow-lg'id=''>
       <div className='row' id='portfolio-row'>
         {projects.map((project) => (
-          <div className='col-4' id='individual-project' key={project.title}>
+          <div className='col-lg-4 col-md-6 col-sm-12' id='individual-project' key={project.title}>
             <div className='card shadow-lg' id='project-card'>
               <div  className='card-body shadow'>
                 <h3 
@@ -94,8 +94,8 @@ const Project = () => {
                   target='_blank' 
                   rel='noreferrer' 
                 >
-                  <span id='git-repo-label'>&lt; Check out the code on GitHub. <FaGithub id='git-project-icon' size={18} />  /&gt;
-                  </span>    
+                  <div id='git-repo-label'>&lt; Check out the code on GitHub. <FaGithub id='git-project-icon' size={18} />  /&gt;
+                  </div>    
                 </a>
               </div>
             </div>

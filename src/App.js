@@ -28,7 +28,7 @@ const App = () => {
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
       />
-      <main className=''>
+      <main className='container'>
        { renderView() }
       </main>  
       <Footer className=''></Footer>
