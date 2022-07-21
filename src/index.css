@@ -116,8 +116,8 @@ nav li {
 }
 
 #git-repo-label {
-  margin-left: 5%;
   margin-top: 0%; 
+  text-align: center;
 } 
 
 #project-img {
@@ -269,8 +269,7 @@ footer {
   #git-repo-label {
     font-size: .8rem;
     text-align: center;
-    margin-left: 0.4rem;
-    margin-top: 0%; 
+  
   }
   #git-project-icon {
     height: .8rem;
@@ -295,9 +294,7 @@ footer {
 
   #git-repo-label {
     font-size: .9rem;
-    text-align: center;
-    margin-left: 0.8rem;
-    margin-top: 0%; 
+    text-align: center; 
   }
   #git-project-icon {
     height: 1rem;
@@ -331,8 +328,6 @@ footer {
   #git-repo-label {
     font-size: .9rem;
     text-align: center;
-    margin-left: 0.8rem;
-    margin-top: 0%; 
   }
   #git-project-icon {
     height: 1rem;
@@ -360,7 +355,6 @@ footer {
   display:inline;
  }
 
-  
   header nav ul {
       margin-top: 20px;
       width: 100%;
@@ -406,7 +400,6 @@ footer {
   #git-repo-label {
     font-size: 1rem;
     text-align: center;
-    margin-left: 0rem;
     margin-top: 0%; 
   }
   #git-project-icon {
@@ -596,11 +589,11 @@ footer {
   }
 
   #git-repo-label {
-    font-size: .85rem;
+    font-size: .7rem;
     text-align: center;
   }
   #git-project-icon {
-    height: .8rem;
+    height: .7rem;
   }
 
   input {
