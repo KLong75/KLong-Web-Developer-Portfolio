@@ -412,7 +412,6 @@ footer {
     height: 1rem;
   }
 
-
   .pdf {
     display: none;
   }
@@ -474,9 +473,9 @@ footer {
   }
 
   /*About*/
-  #about-me-pic-div {
+  /* #about-me-pic-div {
     display: none;
-  }
+  } */
   #about-me-text {
     font-size: .8rem;
   }
