@@ -3,7 +3,7 @@
 ![license badge!](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
-This website wascreated with REACT for the purpose of displaying and sharing my work as a web developer.
+This single page application was created with REACT for the purpose of displaying and sharing my work as a web developer.
 
 ## Screenshots of App
 ![KLong_Portfolio_About_Me](https://user-images.githubusercontent.com/98487770/177222235-3518b400-aee6-40bd-9ce9-2bb8fcc878b1.png)
