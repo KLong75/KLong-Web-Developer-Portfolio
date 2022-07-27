@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutImage from '../../assets/about-image.png';
-
+import roosterCostume from '../../assets/Kevin_rooster_costume.jpg';
 const About = () => {
   return (
     <>
@@ -13,7 +13,8 @@ const About = () => {
           <div className='col-lg-4 col-md-6 col-sm-12' id='about-me-pic-div'>
             <div className='card shadow-lg' id='about-me-card'>
               <div className='card-body' >
-                <img src={aboutImage} alt='Kevin and dog' className='card-img'/>
+                {/* <img src={aboutImage} alt='Kevin and dog' className='card-img'/> */}
+                <img src={roosterCostume} className='card-img img-top' alt='Kevin in a rooster puppet costume' />
               </div>
             </div>
           </div>

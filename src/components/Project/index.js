@@ -9,7 +9,8 @@ const Project = () => {
       title: 'MUSICOLOGY',
       src: 'musicology-gif.gif',
       alt: 'screenshot of app',
-      description: '',
+      description: 'A networking app for musicians. Users can sign up, create a profile describing their musical abilities and interests, make posts on the bulletin board, respond to posts made by other users, and connect with other musicians for creative and business purposes.',
+      technologies: 'MongoDB, Express, React, Node.js, GraphQL, Mongoose, Bootstrap, Material UI, bcrypt, Apollo, React router, JSON web tokens, JavaScript, JSX, CSS',
       appHref:'https://musicology-umekev.herokuapp.com/',
       gitHref:'https://github.com/KLong75/musician-networking-app',
     },
@@ -17,7 +18,8 @@ const Project = () => {
       title: 'Who Do?',
       src: 'Who_Do_login.png',
       alt: 'screeenshot of app',
-      description: '',
+      description: 'An event sharing social media type application. Registered users can create and share events in the Austin area, discover events posted by other users, and RSVP to events they are interested in.',
+      technologies: 'MySQL, Handlebars, Express.js, Node.js, bcrypt, Javascript, HTML, CSS',
       appHref: 'https://who-do-austin.herokuapp.com/login',
       gitHref: 'https://github.com/truppeiner/who-do',
     },
@@ -25,7 +27,8 @@ const Project = () => {
       title: 'Movies R Us',
       src: 'movies_r_us.gif',
       alt: 'screeenshot of app',
-      description: '',
+      description: "Allows a user to search titles by genre across all major subscription streaming services. When a user has selected a title to watch 'Movies 'R Us' links directly to the title for viewing on the application of the streaming service on which the title is available.",
+      technologies: 'JavaScript, HTML, CSS, Bulma',
       appHref: 'https://klong75.github.io/Movies-R-Us-KJ/',
       gitHref: 'https://github.com/KLong75/Movies-R-Us-KJ',
     },
@@ -33,7 +36,8 @@ const Project = () => {
       title: 'Deep Thoughts',
       src: 'deep-thoughts-signup.png',
       alt: 'screeenshot of app',
-      description: '',
+      description: 'A MERN stack social media type application. Users can sign up to create an account . Once registered users can log in, post their "thoughts", read and respond to "thoughts" posted by other users, and become "friends" with other users.',
+      technologies: '',
       appHref: 'https://kj-deep-thoughts.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/deep-thoughts',
     },
@@ -41,7 +45,8 @@ const Project = () => {
       title: 'Budget Tracker',
       src: 'budget-tracker.png',
       alt: 'screeenshot of app',
-      description: '',
+      description: 'A downloadable Progressive Web Application with offline functionality that allows a user to track deposits and expenses.',
+      technologies: ' Express.js, MongoDB, Mongoose, IndexedDB, JavaScript, HTML, CSS',
       appHref: 'https://kj-budget-tracker-pwa.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/budget-tracker-pwa',
     },
@@ -88,6 +93,27 @@ const Project = () => {
                   alt={project.alt} 
                 />
                 </a>
+                <div className='project-img-overlay'>
+                  <div className='project-overlay-title'>&lt; {project.title} / &gt;</div>
+                  <div className='project-description'>{project.description}</div>
+                  <p className='project-technologies'>Featuring: {project.technologies}</p>
+                  <a 
+                  href={project.appHref} 
+                  target='_blank' 
+                  rel='noreferrer' 
+                  >   
+                    <div>&lt; Deployed Application /&gt;</div>
+                  </a>
+                  <a 
+                  href={project.gitHref} 
+                  target='_blank' 
+                  rel='noreferrer' 
+                  >
+                    <div id=''>&lt; GitHub Repository <FaGithub id='git-project-icon' size={18} />  /&gt;
+                    </div>    
+                  </a>
+                </div>
+                
                 {/* <p>{project.description}</p> */}
                 <a 
                   href={project.gitHref} 
@@ -95,7 +121,8 @@ const Project = () => {
                   rel='noreferrer' 
                 >
                   <div id='git-repo-label'>&lt; Check out the code on GitHub. <FaGithub id='git-project-icon' size={18} />  /&gt;
-                  </div>    
+                  </div>
+                 
                 </a>
               </div>
             </div>
