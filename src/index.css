@@ -125,6 +125,7 @@ nav li {
   margin-bottom: 3%;
   margin-top: 3%;
 }
+
 .project-img-overlay a {
   color: lightgray;
   text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00; 
@@ -146,17 +147,15 @@ nav li {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: .6s;
+  transition: .8s;
 }
-
 
 .project-img-overlay > * {
   transform: translateY(120px);
   font-size: 0;
   /* height: 0; */
   /* display: inline; */
-  transition: .6s;
-
+  transition: .8s;
 }
 
 .project-img-overlay:hover {
@@ -169,12 +168,10 @@ nav li {
   margin-left: .4rem;
   margin-right: .4rem;
   font-size: small;
-  
   /* color: gray; */
   text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
   /* display: contents; */
   transform: translateY(0);
-
 }
 
 #project-title {

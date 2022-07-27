@@ -37,9 +37,18 @@ const Project = () => {
       src: 'deep-thoughts-signup.png',
       alt: 'screeenshot of app',
       description: 'A MERN stack social media type application. Users can sign up to create an account . Once registered users can log in, post their "thoughts", read and respond to "thoughts" posted by other users, and become "friends" with other users.',
-      technologies: '',
+      technologies: 'MongoDB, Express, React, Node.js, GraphQL, Mongoose, Apollo, bcrypt, JSON web tokens, React router, JavaScript, JSX, CSS',
       appHref: 'https://kj-deep-thoughts.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/deep-thoughts',
+    },
+    { 
+      title: 'Kevin Long | Full Stack Web Developer',
+      src: 'web_dev_portfolio.png',
+      alt: 'screenshot of app',
+      description: 'A single page REACT application built to showcase and share my work as a developer.',
+      technologies: 'React, Bootstrap, Email.js, React-icons, React-pdf, Better React-carousel, JavaScript, JSX, CSS',
+      appHref:'https://klong75.github.io/klong-web-developer-portfolio/',
+      gitHref:'https://github.com/KLong75/klong-web-developer-portfolio',
     },
     {
       title: 'Budget Tracker',
@@ -54,7 +63,8 @@ const Project = () => {
       title: 'Work Day Scheduler',
       src: 'work-day-scheduler.png',
       alt: 'screeenshot of app',
-      description: '',
+      description: 'Simple scheduling app allows users to save events for each hour of the business day.',
+      technologies: 'Jquery, Moment JS, Javascript, HTML, CSS',
       appHref: 'https://klong75.github.io/daily-calendar/',
       gitHref: 'https://github.com/KLong75/daily-calendar',
     },
@@ -62,7 +72,8 @@ const Project = () => {
       title: 'Note Taker',
       src: 'note-taker2.png',
       alt: 'screeenshot of app',
-      description: '',
+      description: 'Note Taker is an Express.js note taking app that allows the user to quickly write and save notes so they can keep track of tasks and other important information. Notes can be deleted when they are no longer needed.',
+      technologies: 'Express.js, Node.js, JavaScript, HTML, CSS',
       appHref: 'https://note-taker-gnolvek.herokuapp.com/',
       gitHref: 'https://github.com/KLong75/note-taker',
     },
@@ -79,7 +90,7 @@ const Project = () => {
                   id='project-title'
                   className=''
                 >
-                  {project.title}
+                 {project.title}
                 </h3>
                 <a 
                   href={project.appHref} 
@@ -114,16 +125,15 @@ const Project = () => {
                   </a>
                 </div>
                 
-                {/* <p>{project.description}</p> */}
-                <a 
+                {/* <p className=''>{project.description}</p> */}
+                {/* <a 
                   href={project.gitHref} 
                   target='_blank' 
                   rel='noreferrer' 
                 >
                   <div id='git-repo-label'>&lt; Check out the code on GitHub. <FaGithub id='git-project-icon' size={18} />  /&gt;
                   </div>
-                 
-                </a>
+                </a> */}
               </div>
             </div>
           </div>  
