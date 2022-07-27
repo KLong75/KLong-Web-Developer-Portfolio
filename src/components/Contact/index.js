@@ -24,6 +24,10 @@ import budgetTrackerImg2 from '../../assets/budget-tracker-img2.png';
 import musicology1 from '../../assets/musicology-pro.png';
 import musicology2 from '../../assets/musicology-lp.png';
 import musicology3 from '../../assets/musicology-bb.png';
+import portfolio1 from '../../assets/web_dev_about.png';
+import portfolio2 from '../../assets/web_dev_portfolio.png';
+import portfolio3 from '../../assets/web_dev_contact.png';
+
 
 
 
@@ -145,6 +149,16 @@ const Contact = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                       <img width="100%" src={moviesDetailImg} alt='screenshot of app'/>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img width="100%" src={portfolio1} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={portfolio2} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={portfolio3} alt='screenshot of app'/>
                     </Carousel.Item>
           
                     <Carousel.Item>
