@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/klong-web-developer-portfolio/static/css/main.032acf71.css",
-    "main.js": "/klong-web-developer-portfolio/static/js/main.947339f0.js",
+    "main.css": "/klong-web-developer-portfolio/static/css/main.7490126e.css",
+    "main.js": "/klong-web-developer-portfolio/static/js/main.c1c76c40.js",
     "static/js/787.d6450f07.chunk.js": "/klong-web-developer-portfolio/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/klong-web-developer-portfolio/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/musicology-gif.gif": "/klong-web-developer-portfolio/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
@@ -13,12 +13,15 @@
     "static/media/movies-r-us-dune.png": "/klong-web-developer-portfolio/static/media/movies-r-us-dune.ae3a6edbfdba4296707e.png",
     "static/media/movies-r-us-sci-fi-results.png": "/klong-web-developer-portfolio/static/media/movies-r-us-sci-fi-results.52ed590dd573c5b6235e.png",
     "static/media/Who_Do_login.png": "/klong-web-developer-portfolio/static/media/Who_Do_login.08d38f6fb34ca1120d47.png",
+    "static/media/web_dev_about.png": "/klong-web-developer-portfolio/static/media/web_dev_about.95ab779a52857cf40632.png",
     "static/media/who-do-event-feed.png": "/klong-web-developer-portfolio/static/media/who-do-event-feed.dc2d42254d82756732b4.png",
     "static/media/musicology-lp.png": "/klong-web-developer-portfolio/static/media/musicology-lp.83e1718f0e480098e0fe.png",
     "static/media/movies-r-us-homepage.png": "/klong-web-developer-portfolio/static/media/movies-r-us-homepage.c4b0f2839fc757e5c1d3.png",
+    "static/media/web_dev_portfolio.png": "/klong-web-developer-portfolio/static/media/web_dev_portfolio.51a2e6f91ca7e626107f.png",
     "static/media/musicology-pro.png": "/klong-web-developer-portfolio/static/media/musicology-pro.661cae9626a87b3b245c.png",
     "static/media/Team Profile Generator.png": "/klong-web-developer-portfolio/static/media/Team Profile Generator.c76a94fbf38bd49c2dc4.png",
     "static/media/musicology-bb.png": "/klong-web-developer-portfolio/static/media/musicology-bb.fb773e878e57b7e3030e.png",
+    "static/media/web_dev_contact.png": "/klong-web-developer-portfolio/static/media/web_dev_contact.d5e9d47494feb18e8f07.png",
     "static/media/work-day-scheduler.png": "/klong-web-developer-portfolio/static/media/work-day-scheduler.d67a50ae871cecca729e.png",
     "static/media/budget-tracker.png": "/klong-web-developer-portfolio/static/media/budget-tracker.0061668202214e7ec1bb.png",
     "static/media/Who_Do_create_event.png": "/klong-web-developer-portfolio/static/media/Who_Do_create_event.cd95041cf939250c8609.png",
@@ -33,17 +36,18 @@
     "static/media/avengersportfolio.png": "/klong-web-developer-portfolio/static/media/avengersportfolio.b1731bbe37b19bec2958.png",
     "static/media/note-taker2.png": "/klong-web-developer-portfolio/static/media/note-taker2.ccf97975359326757849.png",
     "static/media/about-image.png": "/klong-web-developer-portfolio/static/media/about-image.0791d3856d0fb68a184b.png",
+    "static/media/Kevin_rooster_costume.jpg": "/klong-web-developer-portfolio/static/media/Kevin_rooster_costume.689ae7829747a45c8b69.jpg",
     "static/media/Kevin_Long_Resume.pdf": "/klong-web-developer-portfolio/static/media/Kevin_Long_Resume.d4de2702a9a29d2210d8.pdf",
     "static/media/Kev_Huck_Nap.jpg": "/klong-web-developer-portfolio/static/media/Kev_Huck_Nap.4519cf9e79b584e3f227.jpg",
     "static/media/about-imageold.jpg": "/klong-web-developer-portfolio/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
     "static/media/KJHeadSHot.jpg": "/klong-web-developer-portfolio/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "index.html": "/klong-web-developer-portfolio/index.html",
-    "main.032acf71.css.map": "/klong-web-developer-portfolio/static/css/main.032acf71.css.map",
-    "main.947339f0.js.map": "/klong-web-developer-portfolio/static/js/main.947339f0.js.map",
+    "main.7490126e.css.map": "/klong-web-developer-portfolio/static/css/main.7490126e.css.map",
+    "main.c1c76c40.js.map": "/klong-web-developer-portfolio/static/js/main.c1c76c40.js.map",
     "787.d6450f07.chunk.js.map": "/klong-web-developer-portfolio/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.032acf71.css",
-    "static/js/main.947339f0.js"
+    "static/css/main.7490126e.css",
+    "static/js/main.c1c76c40.js"
   ]
 }
