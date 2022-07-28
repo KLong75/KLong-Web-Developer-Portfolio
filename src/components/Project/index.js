@@ -105,22 +105,22 @@ const Project = () => {
                 />
                 </a>
                 <div className='project-img-overlay'>
-                  <div className='project-overlay-title'>&lt; {project.title} / &gt;</div>
-                  <div className='project-description'>{project.description}</div>
+                  <h3 className='project-overlay-title'>&lt; {project.title} /&gt;</h3>
+                  <p className='project-description'>{project.description}</p>
                   <p className='project-technologies'>Featuring: {project.technologies}</p>
                   <a 
                   href={project.appHref} 
                   target='_blank' 
                   rel='noreferrer' 
                   >   
-                    <div>&lt; Deployed Application /&gt;</div>
+                    <div className='project-link'>&lt; Deployed Application /&gt;</div>
                   </a>
                   <a 
                   href={project.gitHref} 
                   target='_blank' 
                   rel='noreferrer' 
                   >
-                    <div id=''>&lt; GitHub Repository <FaGithub id='git-project-icon' size={18} />  /&gt;
+                    <div className='project-link'>&lt; GitHub Repository <FaGithub id='git-project-icon' size={18} />  /&gt;
                     </div>    
                   </a>
                 </div>
