@@ -31,15 +31,6 @@ const Resume = () => {
              </div>
           </div>  
         </div>
-        <div className='col-12'>
-           <div className='card shadow-lg'>
-            <div className='card-body'> 
-              <Document file={pdf} className='pdf'>
-                <Page pageNumber={3} /> 
-              </Document>
-             </div>
-          </div>  
-        </div>
       </div> 
     </section>
     </>
