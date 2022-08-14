@@ -1,6 +1,7 @@
 import React from 'react';
 import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
 import pdf from '../../assets/Kevin_Long_Resume.pdf'
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 
 const Resume = () => {
@@ -15,7 +16,7 @@ const Resume = () => {
       <div className='row' id='resume-row'> 
         <div className='col-12'>
           <div className='card shadow-lg'>
-            <div className='' id=''>  
+            <div className='card-body' id=''>  
               <Document file={pdf} className='pdf'>
                 <Page pageNumber={1} /> 
               </Document>

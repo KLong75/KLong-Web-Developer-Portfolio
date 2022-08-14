@@ -64,7 +64,7 @@ const Contact = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_vboqyuj', 'template_pfny3q7', form.current, 'sXBZoSzco5PV7qrW2')
+    emailjs.sendForm('service_ojdnvzp', 'template_pfny3q7', form.current, 'sXBZoSzco5PV7qrW2')
      
       .then((result) => {
           console.log(result.text);
