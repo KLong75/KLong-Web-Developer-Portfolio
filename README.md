@@ -11,7 +11,7 @@ This single page application was created with REACT for the purpose of displayin
 ![KLong_Portfolio_Contact](https://user-images.githubusercontent.com/98487770/177222247-6e91c5db-521a-4b90-bc6c-8138072d077e.png)
 
 ## Link to Deployed Application
-https://klong75.github.io/klong-web-developer-portfolio/
+https://kevinlong.dev
 
 ## Table of Contents
 - [Installation](#installation)

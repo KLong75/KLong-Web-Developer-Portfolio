@@ -47,7 +47,7 @@ const Project = () => {
       alt: 'screenshot of app',
       description: 'A single page REACT application built to showcase and share my work as a developer.',
       technologies: 'React, Bootstrap, Email.js, React-icons, React-pdf, Better React-carousel, JavaScript, JSX, CSS',
-      appHref:'https://klong75.github.io/klong-web-developer-portfolio/',
+      appHref:'https://kevinlong.dev',
       gitHref:'https://github.com/KLong75/klong-web-developer-portfolio',
     },
     {
