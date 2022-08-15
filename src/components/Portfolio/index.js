@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className='' id='portfolio-container'>
       <h2 className='section-title'>&lt; My Portfolio /&gt;</h2>
-      <p className='section-sub-title'>&lt; Click on a pic to check out the deployed app. /&gt;</p>
+      <p className='section-sub-title'>&lt; Hover over a project for details including links to the deployed application and the GitHub repository. /&gt;</p>
       <Project />
     </section>
   );

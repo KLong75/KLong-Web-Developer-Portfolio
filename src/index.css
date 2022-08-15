@@ -208,6 +208,10 @@ nav li {
   background-color: #86888a;
 }
 
+#resume-card {
+  background-color: #afafb1;
+}
+
 /* contact component */
 #contact-form-label {
   margin-left: 8rem;
