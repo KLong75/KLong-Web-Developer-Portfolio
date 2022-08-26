@@ -23,7 +23,17 @@ const About = () => {
               <div className='card-body' id='about-me-card-body'>
                 <p 
                   id='about-me-text'>
-                  Full Stack Web Developer. Bachelor of arts in theater. Have worked as a theater artist specializing in puppetry for over 20 years. At first glance coding may seem quite different from theater, however both are highly collaborative creative processes that require creative problem solving to reach a common goal by a deadline. Both require a focused group of people working together to build something. The tools and materials are just different. A career in the arts has often necessitated a day job. Extensive work experience in a variety of roles and industries including retail, food service, agriculture, manufacturing, and education. Have experienced technology in the workplace as both an asset and an obstacle. All of this real world experience informs thinking as a developer resulting in applications that are effective, intuitive, and easy to use. Adapts to new information and evolving circumstances. Excellent communication skills. Skilled at organizing and motivating groups of people to achieve a goal. Welcomes feedback. Always actively working to grow and improve. Thrives on creative problem solving and collaboration. Experienced at meeting deadlines under pressure.
+                  My path to coding has been conventional only in its unconventionality. I have a Bachelor of Arts in Theater and have worked as a theater artist specializing in puppetry for over 20 years. A life in puppetry has been a wonderful adventure full of interesting people and exciting projects. I would not trade it for anything. 
+
+                  Making a living as an artist is a challenge. As one gets older priorities change. A desire for more stable employment led me to become a certified elementary school teacher. Teaching virtually due to the pandemic deepened my interest in computers and technology. I became curious about how all of the internet tools we were using actually worked and decided to find out.  
+
+                  I graduated from the full stack web development bootcamp at The University of Texas in July of 2022. 
+<hr></hr>
+                  At first glance coding may seem quite different from puppetry, however both are highly collaborative, creative processes that require creative problem solving to reach a common goal by a deadline. Both require a focused group of people working together to build something great. The tools and materials are just different.
+                  <hr></hr>
+                  A career in the arts has often necessitated a day job. As such I have a wide array of work experiences in a variety of industries including retail, food service, agriculture, manufacturing, childcare, and education. I have experienced technology in the workplace as both an asset and an obstacle. My diverse work background informs my thinking as a developer resulting in applications that are effective, intuitive, and easy to use. 
+                  <hr></hr>
+                  Let's build something great.
                 </p>
               </div>
             </div>
