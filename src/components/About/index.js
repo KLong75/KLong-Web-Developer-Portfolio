@@ -28,12 +28,13 @@ const About = () => {
                   Making a living as an artist is a challenge. As one gets older priorities change. A desire for more stable employment led me to become a certified elementary school teacher. Teaching virtually due to the pandemic deepened my interest in computers and technology. I became curious about how all of the internet tools we were using actually worked and decided to find out.  
 
                   I graduated from the full stack web development bootcamp at The University of Texas in July of 2022. 
-<hr></hr>
-                  At first glance coding may seem quite different from puppetry, however both are highly collaborative, creative processes that require creative problem solving to reach a common goal by a deadline. Both require a focused group of people working together to build something great. The tools and materials are just different.
                   <hr></hr>
-                  A career in the arts has often necessitated a day job. As such I have a wide array of work experiences in a variety of industries including retail, food service, agriculture, manufacturing, childcare, and education. I have experienced technology in the workplace as both an asset and an obstacle. My diverse work background informs my thinking as a developer resulting in applications that are effective, intuitive, and easy to use. 
+                  Like coding, puppetry is a highly collaborative, creative process that requires creative problem solving to reach a common goal. Both require a focused group of people working together to build something within a budget by a deadline. The tools and materials are just different.
                   <hr></hr>
-                  Let's build something great.
+                  I thrive on creative collaboration and problem solving. The challenge of bringing an idea to life lights me up like nothing else. I love to make things and have fun doing so.
+
+                  I am currently interested in full time employment, freelance gigs, and other collaborative opportunities. Let's build something great.
+
                 </p>
               </div>
             </div>
