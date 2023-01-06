@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f62a324.css",
-    "main.js": "/static/js/main.d5147d85.js",
+    "main.js": "/static/js/main.71fb7938.js",
     "static/js/787.d6450f07.chunk.js": "/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/musicology-gif.gif": "/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
@@ -35,6 +35,7 @@
     "static/media/deep-thoughts-single-thought.png": "/static/media/deep-thoughts-single-thought.cb7f677c779aa1131c88.png",
     "static/media/avengersportfolio.png": "/static/media/avengersportfolio.b1731bbe37b19bec2958.png",
     "static/media/note-taker2.png": "/static/media/note-taker2.ccf97975359326757849.png",
+    "static/media/vainmain-radio.png": "/static/media/vainmain-radio.6bbee1ef51a9ab61d10a.png",
     "static/media/about-image.png": "/static/media/about-image.0791d3856d0fb68a184b.png",
     "static/media/Kevin_rooster_costume.jpg": "/static/media/Kevin_rooster_costume.689ae7829747a45c8b69.jpg",
     "static/media/Kevin_Long_Resume.pdf": "/static/media/Kevin_Long_Resume.9b19dcffc4e3bd608f73.pdf",
@@ -43,11 +44,11 @@
     "static/media/KJHeadSHot.jpg": "/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "index.html": "/index.html",
     "main.1f62a324.css.map": "/static/css/main.1f62a324.css.map",
-    "main.d5147d85.js.map": "/static/js/main.d5147d85.js.map",
+    "main.71fb7938.js.map": "/static/js/main.71fb7938.js.map",
     "787.d6450f07.chunk.js.map": "/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f62a324.css",
-    "static/js/main.d5147d85.js"
+    "static/js/main.71fb7938.js"
   ]
 }
