@@ -6,6 +6,15 @@ import { FaGithub } from 'react-icons/fa';
 const Project = () => {
   const [projects] = useState([
     { 
+      title: 'Vain Mainstream',
+      src: 'vainmain-radio.png',
+      alt: 'screenshot of app',
+      description: 'A web application for musician Vain Mainstream, promoting his latest tour and album. Users can listen to and download album tracks and watch videos from the tour. This single page React application is a downloadable progressive web app with offline functionality.',
+      technologies: 'React, Material UI, JavaScript, JSX, CSS',
+      appHref:'https://vainmainstream.com/',
+      gitHref:'https://github.com/KLong75/vain-mainstream',
+    },
+    { 
       title: 'MUSICOLOGY',
       src: 'musicology-gif.gif',
       alt: 'screenshot of app',
