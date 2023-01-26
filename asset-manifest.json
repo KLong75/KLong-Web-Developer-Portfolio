@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f62a324.css",
-    "main.js": "/static/js/main.71fb7938.js",
+    "main.css": "/static/css/main.2c9e7747.css",
+    "main.js": "/static/js/main.2c64308d.js",
     "static/js/787.d6450f07.chunk.js": "/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/musicology-gif.gif": "/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
@@ -13,6 +13,7 @@
     "static/media/movies-r-us-dune.png": "/static/media/movies-r-us-dune.ae3a6edbfdba4296707e.png",
     "static/media/movies-r-us-sci-fi-results.png": "/static/media/movies-r-us-sci-fi-results.52ed590dd573c5b6235e.png",
     "static/media/Who_Do_login.png": "/static/media/Who_Do_login.08d38f6fb34ca1120d47.png",
+    "static/media/vm_video.png": "/static/media/vm_video.f01eeb0766510337267e.png",
     "static/media/web_dev_about.png": "/static/media/web_dev_about.95ab779a52857cf40632.png",
     "static/media/who-do-event-feed.png": "/static/media/who-do-event-feed.dc2d42254d82756732b4.png",
     "static/media/musicology-lp.png": "/static/media/musicology-lp.83e1718f0e480098e0fe.png",
@@ -29,13 +30,17 @@
     "static/media/deep-thoughts-user-profile.png": "/static/media/deep-thoughts-user-profile.9f93a23ebf84a4ea2055.png",
     "static/media/work-day-img2.png": "/static/media/work-day-img2.0a837f632e483a84b911.png",
     "static/media/deep-thoughts-feed.png": "/static/media/deep-thoughts-feed.f29956b0752a9a5a8f4c.png",
+    "static/media/vm_audio.png": "/static/media/vm_audio.5758fd063ac985e386eb.png",
     "static/media/deep-thoughts-user-thoughts.png": "/static/media/deep-thoughts-user-thoughts.75f6bac59952b0871721.png",
     "static/media/ReadME Generator.png": "/static/media/ReadME Generator.74caae3e8054334c74f8.png",
     "static/media/budget-tracker-img3.png": "/static/media/budget-tracker-img3.15a2555d0532872fdcc5.png",
     "static/media/deep-thoughts-single-thought.png": "/static/media/deep-thoughts-single-thought.cb7f677c779aa1131c88.png",
+    "static/media/kev-huck.jpg": "/static/media/kev-huck.444c4c945d2ca19cdfba.jpg",
     "static/media/avengersportfolio.png": "/static/media/avengersportfolio.b1731bbe37b19bec2958.png",
     "static/media/note-taker2.png": "/static/media/note-taker2.ccf97975359326757849.png",
     "static/media/vainmain-radio.png": "/static/media/vainmain-radio.6bbee1ef51a9ab61d10a.png",
+    "static/media/vm_radio_mobile.png": "/static/media/vm_radio_mobile.2563272d062c3071ca28.png",
+    "static/media/vm_audio_mobile.png": "/static/media/vm_audio_mobile.4b8e0cda320062b8a83b.png",
     "static/media/about-image.png": "/static/media/about-image.0791d3856d0fb68a184b.png",
     "static/media/Kevin_rooster_costume.jpg": "/static/media/Kevin_rooster_costume.689ae7829747a45c8b69.jpg",
     "static/media/Kevin_Long_Resume.pdf": "/static/media/Kevin_Long_Resume.9b19dcffc4e3bd608f73.pdf",
@@ -43,12 +48,12 @@
     "static/media/about-imageold.jpg": "/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
     "static/media/KJHeadSHot.jpg": "/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "index.html": "/index.html",
-    "main.1f62a324.css.map": "/static/css/main.1f62a324.css.map",
-    "main.71fb7938.js.map": "/static/js/main.71fb7938.js.map",
+    "main.2c9e7747.css.map": "/static/css/main.2c9e7747.css.map",
+    "main.2c64308d.js.map": "/static/js/main.2c64308d.js.map",
     "787.d6450f07.chunk.js.map": "/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f62a324.css",
-    "static/js/main.71fb7938.js"
+    "static/css/main.2c9e7747.css",
+    "static/js/main.2c64308d.js"
   ]
 }
