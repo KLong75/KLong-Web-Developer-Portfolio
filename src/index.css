@@ -353,6 +353,10 @@ footer {
     font-size: .8rem;
   }
 
+  #contact-message-label {
+    margin-left: 8rem;
+  }
+
   textarea  {
     width: 24rem;
     margin-left: 6rem;
@@ -425,6 +429,9 @@ footer {
     height: 1rem;
   }
  
+  #contact-form-label {
+    margin-left: 4rem;
+  }
   input {
     width: 8rem;
   }
@@ -700,6 +707,46 @@ footer {
   .project-img-overlay:hover > a {
     font-size: .7rem;
   }
+
+   /*Contact*/
+   #contact-container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+ 
+  input {
+    width: 6rem;
+    margin-left: 1rem;
+  }
+  #contact-form-label {
+    margin-left: 1rem;
+    width: 8rem;
+    font-size: .8rem;
+  }
+
+  textarea  {
+    width: 10.7rem;
+    margin-left: 1rem;
+  }
+
+  #contact-message-label {
+    margin-left:1rem;
+    font-size: .8rem;
+  }
+  #contact-form-btn {
+    margin-left: 7.5rem;
+    width: 4rem; 
+    font-size: .6rem;
+  } 
+  #contact-error-text {
+    font-size: .8rem;
+  }
+  ::placeholder {
+    font-size: .6rem;
+  }
+
+
+
 }
 
 @media screen and (max-width: 391PX) {
@@ -805,6 +852,39 @@ footer {
 
 }
 
+@media screen and (max-width: 320PX) {
+  
+  input {
+    width: 4rem;
+    margin-left: .2rem;
+  } 
+
+  #contact-card-title {
+    font-size: .6rem;
+  }
+
+  textarea  {
+    width: 7.75rem;
+    margin-left: 0rem;
+  }
+
+  #contact-form-btn {
+    margin-left: 3rem;
+    width: 4rem; 
+    font-size: .6rem;
+  } 
+
+  #contact-form-label {
+    display: none;
+  }
+
+  #contact-message-label {
+    display: none;
+  }
+
+}
+
+
 @media screen and (max-width: 281PX) {
   h1 {
     font-size: .8rem;
@@ -854,7 +934,7 @@ footer {
     margin-left: .5rem;
   } 
   #contact-card-title {
-    font-size: .6rem;
+    font-size: .59rem;
   }
   #contact-form-label {
     margin-left: .6rem;
@@ -863,7 +943,7 @@ footer {
   }
   
   textarea  {
-    width: 8rem;
+    width: 6.5rem;
     margin-left: .5rem;
   }
   
@@ -872,7 +952,7 @@ footer {
     font-size: .6rem;
   }
   #contact-form-btn {
-    margin-left: 4.4rem;
+    margin-left: 2.75rem;
     width: 4rem; 
     font-size: .6rem;
   } 

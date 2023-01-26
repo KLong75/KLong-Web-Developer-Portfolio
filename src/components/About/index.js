@@ -1,6 +1,9 @@
 import React from 'react';
 // import aboutImage from '../../assets/about-image.png';
-import roosterCostume from '../../assets/Kevin_rooster_costume.jpg';
+// import roosterCostume from '../../assets/Kevin_rooster_costume.jpg';
+import kevHuck from '../../assets/kev-huck.jpg';
+
+
 const About = () => {
   return (
     <>
@@ -8,13 +11,13 @@ const About = () => {
         className='section-title'>&lt; About Me /&gt;
       </h2>
       <p className='section-sub-title'>&lt; From puppeteer to programmer... /&gt;</p>
-      <section className='container shadow-lg' id='about-me-section'>
+      <section className='container' id='about-me-section'>
         <div className='row' id='about-me-row'>
           <div className='col-lg-4 col-md-6 col-sm-12' id='about-me-pic-div'>
             <div className='card shadow-lg' id='about-me-card'>
               <div className='card-body' >
                 {/* <img src={aboutImage} alt='Kevin and dog' className='card-img'/> */}
-                <img src={roosterCostume} className='card-img img-top' alt='Kevin in a rooster puppet costume' />
+                <img src={kevHuck} className='card-img img-top' alt='Kevin in a rooster puppet costume' />
               </div>
             </div>
           </div>
