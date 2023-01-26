@@ -16,9 +16,9 @@ const Resume = () => {
       <div className='row' id='resume-row'> 
         <div className='col-12'>
           <div className='card' id='resume-card'>
-            <div className='card-body'>  
+            <div className='card-body '>  
               <Document file={pdf} className='pdf'>
-                <Page pageNumber={1} /> 
+                <Page pageNumber={1}/> 
               </Document>
               
             </div> 

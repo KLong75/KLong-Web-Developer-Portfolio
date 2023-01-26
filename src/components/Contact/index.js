@@ -27,7 +27,9 @@ import musicology3 from '../../assets/musicology-bb.png';
 import portfolio1 from '../../assets/web_dev_about.png';
 import portfolio2 from '../../assets/web_dev_portfolio.png';
 import portfolio3 from '../../assets/web_dev_contact.png';
-
+import vm_audio from '../../assets/vm_audio.png';
+import vm_radio from '../../assets/vainmain-radio.png';
+import vm_video from '../../assets/vm_video.png';
 
 
 
@@ -120,6 +122,16 @@ const Contact = () => {
                 </form>  
                 <div id='carousel-div'>
                   <Carousel id='carousel' cols={3} rows={1} gap={20} autoplay={5000} loop={true} hideArrow={true} >
+
+                    <Carousel.Item>
+                      <img width="100%" src={vm_audio} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={vm_radio} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={vm_video} alt='screenshot of app'/>
+                    </Carousel.Item>
 
                     <Carousel.Item>
                       <img width="100%" src={musicology1} alt='screenshot of app'/>
