@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2c9e7747.css",
-    "main.js": "/static/js/main.2c64308d.js",
+    "main.js": "/static/js/main.e0c18763.js",
     "static/js/787.d6450f07.chunk.js": "/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/musicology-gif.gif": "/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
@@ -43,17 +43,17 @@
     "static/media/vm_audio_mobile.png": "/static/media/vm_audio_mobile.4b8e0cda320062b8a83b.png",
     "static/media/about-image.png": "/static/media/about-image.0791d3856d0fb68a184b.png",
     "static/media/Kevin_rooster_costume.jpg": "/static/media/Kevin_rooster_costume.689ae7829747a45c8b69.jpg",
-    "static/media/Kevin_Long_Resume.pdf": "/static/media/Kevin_Long_Resume.9b19dcffc4e3bd608f73.pdf",
+    "static/media/Kevin_Long_Resume.pdf": "/static/media/Kevin_Long_Resume.02f229c0f0bd97edcaea.pdf",
     "static/media/Kev_Huck_Nap.jpg": "/static/media/Kev_Huck_Nap.4519cf9e79b584e3f227.jpg",
     "static/media/about-imageold.jpg": "/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
     "static/media/KJHeadSHot.jpg": "/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "index.html": "/index.html",
     "main.2c9e7747.css.map": "/static/css/main.2c9e7747.css.map",
-    "main.2c64308d.js.map": "/static/js/main.2c64308d.js.map",
+    "main.e0c18763.js.map": "/static/js/main.e0c18763.js.map",
     "787.d6450f07.chunk.js.map": "/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c9e7747.css",
-    "static/js/main.2c64308d.js"
+    "static/js/main.e0c18763.js"
   ]
 }
