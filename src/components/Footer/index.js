@@ -8,7 +8,6 @@ import { FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
-
       <p>
         <a 
           href='https://calendly.com/kevin_long/30min' 
@@ -18,7 +17,6 @@ const Footer = () => {
         >
           &lt; Schedule a time to talk /&gt;
         </a> 
-        
       </p>
 
       <a href='mailto:kevinjlong75@gmail.com'>
@@ -33,7 +31,14 @@ const Footer = () => {
       {/* <a href='https://stackoverflow.com/users/18041189/klong75?tab=profile' target='_blank' rel='noreferrer' className=''>
         <FaStackOverflow id='footer-icon' size={30} />
       </a> */}
+      <a 
+          href='https://calendly.com/kevin_long/30min' 
+          target='_blank' 
+          rel='noreferrer'
+          className='calendly-link'
+        >
       <p id='footer-tag-text' className='section-sub-title'>&lt; Let's build something great. /&gt;</p>
+      </a>
     </footer>
   );
 };
