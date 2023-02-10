@@ -27,7 +27,7 @@ const About = () => {
                 <p 
                   id='about-me-text'>
                   My path to coding has been conventional only in its unconventionality. I have a Bachelor of Arts in Theater and worked as a theater artist specializing in puppetry for many years.
-                  Making a living as an artist is a challenge. As one gets older priorities change. A desire for more stable employment led me to become a certified elementary school teacher. Teaching virtually due to the pandemic sparked an interest in computers and technology. I became curious about how all of the internet tools I was using to teach actually worked and decided to find out.   
+                  Making a living as an artist is a challenge. As one gets older priorities change. A desire for more stable employment led me to become a certified elementary school teacher. Teaching virtually due to the pandemic sparked an interest in computers and technology. I became curious about how all of the internet tools I was using to teach actually worked. I decided to find out and enrolled in the full stack web development bootcamp at the University of Texas. 
                   <hr></hr>
                   Like puppetry, coding is a highly collaborative, creative process that requires creative problem solving to reach a common goal. Both require a focused group of people working together to build something within a budget by a deadline. The tools and materials are just different.
                   <hr></hr>
