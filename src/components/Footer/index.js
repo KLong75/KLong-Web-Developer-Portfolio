@@ -8,6 +8,19 @@ import { FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
+
+      <p>
+        <a 
+          href='https://calendly.com/kevin_long/30min' 
+          target='_blank' 
+          rel='noreferrer'
+          className='calendly-link'
+        >
+          &lt; Schedule a time to talk /&gt;
+        </a> 
+        
+      </p>
+
       <a href='mailto:kevinjlong75@gmail.com'>
         <FaEnvelope id='footer-icon' size={30} />   
       </a>

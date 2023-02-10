@@ -300,6 +300,12 @@ footer {
   text-align: center;
 }
 
+.calendly-link {
+  text-align: center;
+  color: gray;
+  text-shadow: 0 0 3px #50b70c, 0 0 5px #f6ff00;
+}
+
 #footer-icon {
   margin-left: 20px;
   margin-right: 20px;
@@ -849,6 +855,10 @@ footer {
   height: 1.5rem;
 }
 
+.calendly-link {
+  font-size: .9rem;
+}
+
 #footer-tag-text {
   font-size: .6rem;
   margin-top: .2rem;
@@ -886,6 +896,10 @@ footer {
 
   #contact-message-label {
     display: none;
+  }
+
+  .calendly-link {
+    font-size: .8rem;
   }
 
 }
@@ -982,6 +996,10 @@ footer {
   #footer-tag-text {
     font-size: .6rem;
     margin-top: .2rem;
+  }
+
+  .calendly-link {
+    font-size: .7rem;
   }
 }
 
