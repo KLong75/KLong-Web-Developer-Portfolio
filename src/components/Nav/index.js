@@ -4,6 +4,16 @@ const Nav = (props) => {
 
   return (
     <nav>
+      <p>
+        <a 
+          href='https://calendly.com/kevin_long/30min' 
+          target='_blank' 
+          rel='noreferrer'
+          className='calendly-link'
+        >
+          &lt; Let's Talk! /&gt;
+        </a> 
+      </p>
       <ul className='flex-row'>
         <li 
           id='nav-list' 

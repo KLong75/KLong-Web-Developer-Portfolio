@@ -318,6 +318,7 @@ footer {
 #footer-tag-text {
   font-size: .8rem;
   margin-top: .2rem;
+  margin-bottom: 5rem;
 }
 /*Begin Media Queries */
 @media screen and (max-width:1200px) {
