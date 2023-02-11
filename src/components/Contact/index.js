@@ -98,6 +98,7 @@ const Contact = () => {
                 &lt; kevinjlong75@gmail.com
                 </a> | 512-975-0082 /&gt;
               </h4>
+              
               <div id='contact-form-container' className='card-body container'>
                 <form ref={form} id='contact-form' className='contact-form' onSubmit={sendEmail}>
                   <div className='row'>
