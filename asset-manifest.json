@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d152fb49.css",
-    "main.js": "/static/js/main.51641139.js",
+    "main.js": "/static/js/main.75a2fe9d.js",
     "static/js/787.d6450f07.chunk.js": "/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/musicology-gif.gif": "/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
@@ -15,14 +15,17 @@
     "static/media/Who_Do_login.png": "/static/media/Who_Do_login.08d38f6fb34ca1120d47.png",
     "static/media/vm_video.png": "/static/media/vm_video.f01eeb0766510337267e.png",
     "static/media/web_dev_about.png": "/static/media/web_dev_about.95ab779a52857cf40632.png",
+    "static/media/sht_services.png": "/static/media/sht_services.f7a54f78b5ba627520d2.png",
     "static/media/who-do-event-feed.png": "/static/media/who-do-event-feed.dc2d42254d82756732b4.png",
     "static/media/musicology-lp.png": "/static/media/musicology-lp.83e1718f0e480098e0fe.png",
     "static/media/movies-r-us-homepage.png": "/static/media/movies-r-us-homepage.c4b0f2839fc757e5c1d3.png",
     "static/media/web_dev_portfolio.png": "/static/media/web_dev_portfolio.51a2e6f91ca7e626107f.png",
     "static/media/musicology-pro.png": "/static/media/musicology-pro.661cae9626a87b3b245c.png",
+    "static/media/sht_services_testiomonials.png": "/static/media/sht_services_testiomonials.260dfc8b4ab12042b3bc.png",
     "static/media/Team Profile Generator.png": "/static/media/Team Profile Generator.c76a94fbf38bd49c2dc4.png",
     "static/media/musicology-bb.png": "/static/media/musicology-bb.fb773e878e57b7e3030e.png",
     "static/media/web_dev_contact.png": "/static/media/web_dev_contact.d5e9d47494feb18e8f07.png",
+    "static/media/sht_testimonials.png": "/static/media/sht_testimonials.227936083414f4f11e3e.png",
     "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.d67a50ae871cecca729e.png",
     "static/media/budget-tracker.png": "/static/media/budget-tracker.0061668202214e7ec1bb.png",
     "static/media/Who_Do_create_event.png": "/static/media/Who_Do_create_event.cd95041cf939250c8609.png",
@@ -40,20 +43,29 @@
     "static/media/note-taker2.png": "/static/media/note-taker2.ccf97975359326757849.png",
     "static/media/vainmain-radio.png": "/static/media/vainmain-radio.6bbee1ef51a9ab61d10a.png",
     "static/media/vm_radio_mobile.png": "/static/media/vm_radio_mobile.2563272d062c3071ca28.png",
+    "static/media/Screenshot_20230330_141915_Chrome.jpg": "/static/media/Screenshot_20230330_141915_Chrome.1dfe7fce359a271bad5c.jpg",
+    "static/media/Screenshot_20230330_141907_Chrome.jpg": "/static/media/Screenshot_20230330_141907_Chrome.30a476d820fd07428bd2.jpg",
+    "static/media/Screenshot_20230330_141920_Chrome.jpg": "/static/media/Screenshot_20230330_141920_Chrome.b59186097d4ce3c34218.jpg",
+    "static/media/Screenshot 2023-03-30 142647.png": "/static/media/Screenshot 2023-03-30 142647.d0231a4ad6ef845af2f9.png",
     "static/media/vm_audio_mobile.png": "/static/media/vm_audio_mobile.4b8e0cda320062b8a83b.png",
     "static/media/about-image.png": "/static/media/about-image.0791d3856d0fb68a184b.png",
     "static/media/Kevin_rooster_costume.jpg": "/static/media/Kevin_rooster_costume.689ae7829747a45c8b69.jpg",
+    "static/media/sht_home_desktop.png": "/static/media/sht_home_desktop.2eb1dc78edf4b0f82ab7.png",
+    "static/media/sht_travel_design_desktop.png": "/static/media/sht_travel_design_desktop.d11ba9d18fb76d1e94a1.png",
+    "static/media/Screenshot 2023-03-30 173714.png": "/static/media/Screenshot 2023-03-30 173714.6d14ca458b5c0c691bce.png",
+    "static/media/Screenshot 2023-03-30 172442.png": "/static/media/Screenshot 2023-03-30 172442.e521f0d3a37c3495c151.png",
     "static/media/Kevin_Long_Resume.pdf": "/static/media/Kevin_Long_Resume.39748d3a4e34ee187910.pdf",
     "static/media/Kev_Huck_Nap.jpg": "/static/media/Kev_Huck_Nap.4519cf9e79b584e3f227.jpg",
     "static/media/about-imageold.jpg": "/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
     "static/media/KJHeadSHot.jpg": "/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
+    "static/media/Screenshot_20230330_141937_Chrome.jpg": "/static/media/Screenshot_20230330_141937_Chrome.b3b9eda5124b1b58eaee.jpg",
     "index.html": "/index.html",
     "main.d152fb49.css.map": "/static/css/main.d152fb49.css.map",
-    "main.51641139.js.map": "/static/js/main.51641139.js.map",
+    "main.75a2fe9d.js.map": "/static/js/main.75a2fe9d.js.map",
     "787.d6450f07.chunk.js.map": "/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d152fb49.css",
-    "static/js/main.51641139.js"
+    "static/js/main.75a2fe9d.js"
   ]
 }
