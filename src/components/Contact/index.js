@@ -1,13 +1,17 @@
+// import from React
 import React, { useState, useRef } from 'react';
+
+// import email.js
 import emailjs from 'emailjs-com';
+
+// import helpers
 import { validateEmail } from '../../utils/helpers';
+
+// import carousel
 import Carousel from 'better-react-carousel';
-// import whoDoLoginImg from '../../assets/Who_Do_login.png';
+
+// import images
 import budgetTrackerImg from '../../assets/budget-tracker.png';
-// import deepThoughtsImg from '../../assets/deep-thoughts-signup.png';
-// import moviesAvengersImg from '../../assets/avengersportfolio.png';
-// import noteTakerImg from '../../assets/note-taker2.png';
-// import workDaySchedulerImg from '../../assets/work-day-scheduler.png';
 import whoDoEventFeedImg from '../../assets/who-do-event-feed.png';
 import whoDoEventDetailsImg from '../../assets/who-do-event-details.png';
 import whoDoCreateEventImg from '../../assets/Who_Do_create_event.png';
@@ -17,8 +21,6 @@ import moviesDetailImg from '../../assets/movies-r-us-dune.png';
 import deepToughtsFeedImg from '../../assets/deep-thoughts-feed.png';
 import deepThoughtsSingleThoughtImg from '../../assets/deep-thoughts-single-thought.png';
 import deepThoughtsUserProfileImg from '../../assets/deep-thoughts-user-profile.png';
-// import deepThoughtsUserThoughtsImg from '../../assets/deep-thoughts-user-thoughts.png';
-// import workDaySchedulerImg2 from '../../assets/work-day-img2.png';
 import budgetTrackerImg3 from '../../assets/budget-tracker-img3.png';
 import budgetTrackerImg2 from '../../assets/budget-tracker-img2.png';
 import musicology1 from '../../assets/musicology-pro.png';
@@ -30,7 +32,9 @@ import portfolio3 from '../../assets/web_dev_contact.png';
 import vm_audio from '../../assets/vm_audio.png';
 import vm_radio from '../../assets/vainmain-radio.png';
 import vm_video from '../../assets/vm_video.png';
-
+import sht_home_desktop from '../../assets/sht_home_desktop.png';
+import sht_services from '../../assets/sht_services.png';
+import sht_testimonials from '../../assets/sht_testimonials.png';
 
 
 
@@ -66,7 +70,9 @@ const Contact = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ojdnvzp', 'template_pfny3q7', form.current, 'sXBZoSzco5PV7qrW2')
+    // emailjs.sendForm('service_ojdnvzp', 'template_pfny3q7', form.current, 'sXBZoSzco5PV7qrW2')
+
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_USER_ID)
      
       .then((result) => {
           console.log(result.text);
@@ -122,6 +128,16 @@ const Contact = () => {
                 </form>  
                 <div id='carousel-div'>
                   <Carousel id='carousel' cols={3} rows={1} gap={20} autoplay={5000} loop={true} hideArrow={true} >
+
+                    <Carousel.Item>
+                      <img width="100%" src={sht_services} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={sht_home_desktop} alt='screenshot of app'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img width="100%" src={sht_testimonials} alt='screenshot of app'/>
+                    </Carousel.Item>
 
                     <Carousel.Item>
                       <img width="100%" src={vm_audio} alt='screenshot of app'/>
