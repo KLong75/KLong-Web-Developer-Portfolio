@@ -10,6 +10,10 @@ import { validateEmail } from '../../utils/helpers';
 // import carousel
 import Carousel from 'better-react-carousel';
 
+// import from react-toastify
+import { ToastContainer, toast, Zoom } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // import images
 import budgetTrackerImg from '../../assets/budget-tracker.png';
 import whoDoEventFeedImg from '../../assets/who-do-event-feed.png';
@@ -35,6 +39,15 @@ import vm_video from '../../assets/vm_video.png';
 import sht_home_desktop from '../../assets/sht_home_desktop.png';
 import sht_services from '../../assets/sht_services.png';
 import sht_testimonials from '../../assets/sht_testimonials.png';
+import webDevIcon from '../../assets/web_dev_icon-192.png';
+
+
+const ContactFormToast = ({message, icon}) => (
+  <div>
+    <img src={webDevIcon } alt="web development icon" style={{width: '50px', height: '50px', borderRadius: '50%', border: '1px solid #212529'}}/>
+    <p style={{color: '#212529', fontSize: '20px', marginTop: '10px'}}>{message}</p>
+  </div>
+)
 
 
 
@@ -76,7 +89,8 @@ const Contact = () => {
      
       .then((result) => {
           console.log(result.text);
-          alert('Thank you. Your message has been sent.');
+          // alert('Thank you. Your message has been sent.');
+          toast.success(<ContactFormToast message='Thank you. Your message has been sent.' icon={webDevIcon}/>);
       }, (error) => {
           console.log(error.text);
       });
@@ -216,6 +230,14 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <ToastContainer
+        type="success"
+        position="top-center"
+        autoClose={5000}
+        transition={Zoom}
+        theme="light"
+        style={{ backgroundColor: '#6c757d' }}
+        />
     </>
   );
 };
