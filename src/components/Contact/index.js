@@ -236,7 +236,7 @@ const Contact = () => {
         autoClose={5000}
         transition={Zoom}
         theme="light"
-        style={{ backgroundColor: '#6c757d' }}
+        style={{ backgroundColor: '#6c757d', borderRadius: '2%' }}
         />
     </>
   );
