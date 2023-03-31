@@ -9,7 +9,7 @@ const Project = () => {
       title: 'Sam Hahn Travel',
       src: 'sht_home_desktop.png',
       alt: 'screenshot of app',
-      description: 'Fully responsive web application for Sam Hahn Travel. PWA with offline functionality. Users can browse the site for information about Sam Hahn Travel and the services they offer. Users can also contact Sam Hahn Travel via the contact form.',
+      description: 'Fully responsive web application for Sam Hahn Travel. Installable PWA. SPA. Users can browse the site for information about Sam Hahn Travel and the services they offer. Users can also contact Sam Hahn Travel via the contact form.',
       technologies: 'React, Material UI, JavaScript, HTML, CSS',
       appHref:'https://klong75.github.io/sam-hahn-travel',
       gitHref:'https://github.com/KLong75/sam-hahn-travel',
