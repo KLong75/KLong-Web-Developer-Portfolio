@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b04cc075.css",
-    "main.js": "/static/js/main.ce7dbf0f.js",
+    "main.js": "/static/js/main.99b0a4b1.js",
     "static/js/787.d6450f07.chunk.js": "/static/js/787.d6450f07.chunk.js",
     "static/media/movies_r_us.gif": "/static/media/movies_r_us.c8aa6e6f99256cbb52af.gif",
     "static/media/musicology-gif.gif": "/static/media/musicology-gif.572eb27c52d7a4777f69.gif",
@@ -57,16 +57,15 @@
     "static/media/Kevin_Long_Resume.pdf": "/static/media/Kevin_Long_Resume.39748d3a4e34ee187910.pdf",
     "static/media/Kev_Huck_Nap.jpg": "/static/media/Kev_Huck_Nap.4519cf9e79b584e3f227.jpg",
     "static/media/about-imageold.jpg": "/static/media/about-imageold.8eaa1f18df19946ec567.jpg",
-    "static/media/KJHeadSHot.jpg": "/static/media/KJHeadSHot.82010b5de5741433a7fe.jpg",
     "static/media/Screenshot_20230330_141937_Chrome.jpg": "/static/media/Screenshot_20230330_141937_Chrome.b3b9eda5124b1b58eaee.jpg",
     "static/media/web_dev_icon-192.png": "/static/media/web_dev_icon-192.a5296aa8c2a24e00b7d7.png",
     "index.html": "/index.html",
     "main.b04cc075.css.map": "/static/css/main.b04cc075.css.map",
-    "main.ce7dbf0f.js.map": "/static/js/main.ce7dbf0f.js.map",
+    "main.99b0a4b1.js.map": "/static/js/main.99b0a4b1.js.map",
     "787.d6450f07.chunk.js.map": "/static/js/787.d6450f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b04cc075.css",
-    "static/js/main.ce7dbf0f.js"
+    "static/js/main.99b0a4b1.js"
   ]
 }
